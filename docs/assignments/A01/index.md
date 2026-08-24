@@ -53,5 +53,5 @@ Documentation standard: My standard that I set for each assignment is that the u
 
 To me, defending an engineering decision means being able to explain why you made a certain choice and having actual evidence or reasoning to support it. Instead of just saying that I chose a certain material, design, or method because I thought it would work best, I should be able to use things like calculations, testing, research, or comparisons to explain why I made that decision. It would be important to mention specific mechanical properties while explaining the reasoning as well. I think I currently understand the basic idea of how to defend an engineering decision but I do not think I completely know how to do it yet. In previous engineering classes, I have had to explain some of the decisions I made in projects and calculations, but I think I still have to learn about how to fully support those decisions from an engineering perspective. 
 
-I spent about 4-5 hours on this assignment. 
+I spent about 3-4 hours on this assignment. 
 
