@@ -12,10 +12,10 @@ https://nhoong.github.io/
 &
 https://fwachter.github.io/ 
 
-Nathan’s 
+
 Nathan’s webpage has strong navigability because a user can find a specific project in under 60 seconds. Each project is labeled, includes an image, and has a link that takes the user directly to the work. His portfolio also has enough detail to make his projects more reproducible. For example, he included his entire senior capstone paper along with assembly and engineering drawings of prototypes he created. Nathan also shows some evidence of his reasoning by including the engineering goal for each project and then explaining the result below it. However, he mostly shows the final products. But the goals he listed help the reader understand what each prototype was designed to do and what problem it was meant to solve. The language throughout the webpage is professional and would be appropriate to show to an employer trying to hire him. 
 
-Frederick’s 
+
 Frederick’s webpage has pretty strong navigability as well. A user can find his different projects in under 60 seconds. His projects are labeled and include images but his do not contain any links to the actual projects themselves as Nathan’s did. For reproducibility Frederick gives descriptions of each project and explains his experience with them, but there is not enough technical information for someone to actually reproduce his work without asking questions. His portfolio also focuses more on the final products and what he learned from each project instead of showing the decisions he made throughout the engineering process. This makes his evidence of reasoning more limited than Nathan’s. His language would still be appropriate to show an employer because his descriptions stay focused on his engineering experience and explain his role in each project. 
 
 Task B 
