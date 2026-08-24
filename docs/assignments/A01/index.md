@@ -16,11 +16,14 @@ Frederick’s
 Frederick’s webpage has pretty strong navigability as well. A user can find his different projects in under 60 seconds. His projects are labeled and include images but his do not contain any links to the actual projects themselves as Nathan’s did. For reproducibility Frederick gives descriptions of each project and explains his experience with them, but there is not enough technical information for someone to actually reproduce his work without asking questions. His portfolio also focuses more on the final products and what he learned from each project instead of showing the decisions he made throughout the engineering process. This makes his evidence of reasoning more limited than Nathan’s. His language would still be appropriate to show an employer because his descriptions stay focused on his engineering experience and explain his role in each project. 
 
 Task B 
+
 a. To withstand an input force and experience deformation in order to create a gripping force at the end of the cantilever beams. 
 
 b. The model is two connected beams that are all the same material, it only has one component. The beams are connected at one end by bending a larger piece of metal or welding two pieces of metals together depending on the manufacturer. This model is valid for the design because the long length of the beams allow for deformation and which can cause the other end of the tweezers to come together to create a gripping force based on the input force. The equation used in this product is the stress deformation equation. The F in the equation stands for the input force, the L is the length of the tweezer beams, the E is the elastic modulus of the metal that the tweezer beams are made out of and the I is the area moment of inertia. The model image can be accessed through the paten webpage link provided below.  
 Patent U number: US6916054B1
+
 Patent webpage: https://patents.google.com/patent/US6916054B1/en 
+
 Patent citation: Baldesberger, Fides P. Tweezers. U.S. Patent 6,916,054 B1, 12 July 2005. Google Patents.
 
 c. Another version is smaller pliers or forceps; they act  similar to the mechanical properties of tweezers. 
