@@ -1,7 +1,8 @@
-# A1 – [Topic]
+# A1 – Building My own Engineering Portfolio
 
 ## Objective
 
+To Analyze, Communicate and Make Decesions
 
 ## Analyze
 
