@@ -1,2 +1,2 @@
 #About Me
-This is how to edit
+I am a mechanical engineering student at University of North Carolina at Charlotte. 
