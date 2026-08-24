@@ -4,9 +4,12 @@
 
 
 ## Analyze
+
 Task A
+
 Two engineering portfolios analyzed:
 https://nhoong.github.io/ 
+&
 https://fwachter.github.io/ 
 
 Nathan’s 
@@ -34,6 +37,7 @@ d. One design choice that the engineer made was the at the end of the tweezers t
 
 
 ## Decide
+
 Homepage identity: My homepage is set up so that a reader can quickly understand what my portfolio contains and how to go through it. The navigation bar on the left separates my About Me, Portfolio Overview, and Assignments, so someone looking through my work can easily find any specific section they are looking for. The homepage also explains the Analyze, Decide, and Communicate structure that is used throughout my assignments, which lets the reader know what type of information they can expect to see on each page and also what I like to incorporate in the assignment. I also included the semester arc to show overtime how all my projects and assignments progress. Overall these choices give a variety of readers enough information to understand how my engineering work is organized and how my design decisions will be documented throughout the portfolio. 
 
 Intentional customization: I am going to change the font and boldness of the text of the title on the home page. I implemented this change in because I thought it would be easier for the users to not only see the title of my homepage, now that it is in bold, but also more aesthetically pleasing due to the font change. If the user or reader is able to understand the title of the homepage easily this aids in their understanding of what the page is about and whose portfolio page it is. 
@@ -45,6 +49,7 @@ Documentation standard: My standard that I set for each assignment is that the u
 
 ## Communicate
 "What does it mean to defend an engineering decision : and do you currently know how to do it?" 
+
 To me, defending an engineering decision means being able to explain why you made a certain choice and having actual evidence or reasoning to support it. Instead of just saying that I chose a certain material, design, or method because I thought it would work best, I should be able to use things like calculations, testing, research, or comparisons to explain why I made that decision. It would be important to mention specific mechanical properties while explaining the reasoning as well. I think I currently understand the basic idea of how to defend an engineering decision but I do not think I completely know how to do it yet. In previous engineering classes, I have had to explain some of the decisions I made in projects and calculations, but I think I still have to learn about how to fully support those decisions from an engineering perspective. 
 
 I spent about 4-5 hours on this assignment. 
