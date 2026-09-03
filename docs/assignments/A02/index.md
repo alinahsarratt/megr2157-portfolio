@@ -41,13 +41,51 @@ Cross Section Area
 
   After I solved for all the internal loads by method of joints I used the largest internal load I found and used it to calculate the minimum cross sectional area of the truss member. With this calculation the yield strength was needed. So I went back up to the instructions given to us and saw that we were using A500 structural steel as a material. I then researched tables or websites that could give me the yield value for that specific material at hand. I found on tottentubes (https://www.tottentubes.com/astm-a500-specification-information) website a table that listed the yield strength as 228MPa. I then used this in my calculation for the minimum cross sectional area. I needed to implement a factor safety of 3.5 into my solving which was depicted below. 
 
-Then I solved for the minimum cross sectional area of the pins given. In order to do this I needed to find the pin with the most force acting on that and for me it was pin C. It not only had the highest internal load acting on it but I also had other forces as well including the external 20kN force. It was noted that pin D is the same exact way, they are equal in loads so I could have chosen either one but they would each have the same outcome. Once that was picked I used it to 
+Then I solved for the minimum cross sectional area of the pins given. The assumption was for a single shear in the instructions. In order to do this I needed to find the pin with the most force acting on that and for me it was pin C. It not only had the highest internal load acting on it but I also had other forces as well including the external 20kN force. It was noted that pin D is the same exact way, they are equal in loads so I could have chosen either one but they would each have the same outcome. Once that was picked I used it to calculate the cross sectional area. In order to do this I first had to find the allowable shear stress using the allowable shear yield strength given and the safter factor of 4. Once I determined the allowable shear stress I used it and the max shear stress which in this case would be the 20kn force, to solve for the minimum cross sectional area of the pin. This was a value of 0.106in^2 and 68,387mm^2. Here I did a quick mental check to make sure that cross sectional area was smaller than the cross sectional area of the truss and it was. So I proceeded 
+
+Diameter calculation 
+I shortly after found the diameter of each pin because I thought it would be useful later in my CAD design. 
+
+
+Weight Calculations 
+
+The last thing I did before proceeding to making the CAD model for the design was approximate the weight of the truss itself and each of the pins in it. First I calculated the approximate weight of the truss which is shown in the depiction below, I used the given values of density and the area value I had solved for originally. I had to list the length of each member in meters because that was useful in my calculation as shown. 
+
+I followed up with the calculation of the pin weights. I realized I needed to assume a width for each member so I could use that width and the truss cross sectional area to solve for the thickness of each member. This was important because that thickness would directly affect the length of each pin. I assumed to use a width of 30mm making the thickness of each member 8.2. I had originally made the mistake of not taking into account that the amount of members at each pin would affect how long that pin would have to be. I originally thought that each pin would be equal in length but I quickly caught myself and realized that wasn't the case. So after I corrected my mistake by breaking the pins up by how many members were attached to each and calculated each of their lengths based off of that. These lengths were then used in the weight calculation as depicted below. 
+
+
+
+CAD Design
+
+Next I began to work on my CAD design of this. I decided to try to use the 3d assembly tool on Creo to model my truss. I began to use the extrude feature to make each of my parts I was going to use in the assembly I first used the sketch inside extrude to make a basic rectangle, I adjusted the length for each member based on which one I was making, if the members were equal in length I used the same part file for them both in the assembly. I then drew two circles, each were 15mm from the bottom of the member and 10mm away from the end of the member. I adjusted the diameter to the diameter of the pin I calculated earlier so it would create a hold that size when I extruded it. 
+
+I then created a part files for my pins, if they were equal in length I used the same part file for each in the assembly for convenience. I used the extrude tool to create a circle and adjusted the diameter to the one I previously calculated. Each pin length was adjusted in the extrude tool to match the calculated values that came from how many members were attached to it. 
+
+After that I created an assembled model of my parts. Unfortunately during this part I had trouble with the constrains, the pins were made to the right length based on the calculated values but the members were not constraining so that they laid flat against each other so the pins were a bit offset in the assembly. This mis assembly only affected the pin connections that had more than 2 members attached to it. I tried multiple times to fix this issue but I was unsuccessful. I depicted the gaps present in the image below along with the assembly of my truss. 
+
+Gap picture 
+
+
+
+Assembly with pins 
+
+
+Assembly without the pins added yet 
 
 
 ## Communicate
 
-Failure evaluation for Members: 
+Failure evaluation for Members: Both Members BC and DA are under the same forces and have equal lengths. When looking at there type of failures it would be most likely due to yielding.  Some of my members are in tension and some are in compression, but for this project we are told to assume the compression members will not fail from buckling. For these specific members they have a tension force acting on them so it is likely to fail due to yielding if put under high stress.  So because of that, I mainly looked at whether the stress in my members would get high enough to cause the A500 steel to start yielding.  When looking at the other members such as BE or CE these embers have compressive forces typically this could create buckling but again due to the parameters, I would say it would still fail because of compressive yielding. Since BC has such a high force acting on it, a design that could help would be increase the cross sectional area of this member. Member CD has barely a tension force acting on it since it is essentially a 0 force member it is actually helping provide stability in the truss so it would be something that is good to keep in the design. All members are made out of the A500 steel and this material is considered ductile. 
 
-Failure evalualation for joints/pins: 
+Failure evaluation for joints/pins: Pin A and B are under the same force pressure, they are a single shear connection carrying two members one with 8.89kN of tension and the other was a 11.11kN compressive force, this creates a large amount of stress on a very small pin. This would likely cause failure due to shear failure, in order to fix this you can increase the cross sectional area of the pin which can lighten the load. Pins C and D are helped out by member CD since it is essentially a 0 force member but they still have some high loads of two compressive force of 16.03 and 11.11 kN. In order to lighten the load on these pins you could turn it into a double or triple shear pin making the load a 1/2 or 1/3 of a single shear load, especially because these pins hold 3 members. I would probably implement the same design upgrade into pin E since it is holding together four members. I would turn it into a multi-shear pin so it can withstand the heavy loads from 4 members making it less likely to fail because of shear failure. Each one of these pins is made out of hardened tool steel which is classified as a hard brittle material.  
 
-Engineering Lesson: I learned the process of designing by your own choice and learning how to defend your design choices. I got to not only practice my critical thinking skills I learned the importance of documenting and communicating your process to others. Remembering to even document the mistakes I made was something I had never practiced before I was used to giving individuals the finished product. 
+Engineering Lesson: I learned the process of designing by your own choice and learning how to defend your design choices. I got to not only practice my critical thinking skills I learned the importance of documenting and communicating your process to others. Remembering to even document the mistakes I made was something I had never practiced before I was used to giving individuals the finished product. For a total I spent about 12 hours on this project over a couple days it took a lot of time working out my mistakes and making sense of the math in terms of how it affected my design. 
+
+
+Below is a link to my zip file for assembly 
+
+[trussmodel.asm.zip](https://github.com/user-attachments/files/31771151/trussmodel.asm.zip)
+
+Below is a link to my pdf with my work
+
+[A2 project  (1).pdf](https://github.com/user-attachments/files/31771242/A2.project.1.pdf)
