@@ -68,7 +68,8 @@ Then I solved for the minimum cross sectional area of the pins given. The assump
 Diameter calculation 
 I shortly after found the diameter of each pin because I thought it would be useful later in my CAD design. 
 
-<img width="600" height="500" alt="pindiameter" src="https://github.com/user-attachments/assets/bb80aa48-8555-47fe-a509-1e790a887eab" />
+<img width="785" height="600" alt="pindiameter" src="https://github.com/user-attachments/assets/3e32b13f-563c-441c-8e6f-3ff682ff762d" />
+
 
 Weight Calculations 
 
