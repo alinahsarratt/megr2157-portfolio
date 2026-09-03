@@ -113,8 +113,9 @@ Gap picture
 
 
 Assembly with pins 
+<img width="700" height="600" alt="assemblywithpins" src="https://github.com/user-attachments/assets/d1c03f37-05b9-45f8-adfc-75943716d5b9" />
 
-<img width="500" height="600" alt="trussassemblymodel" src="https://github.com/user-attachments/assets/c298c02f-2eaa-4c0d-a32e-71a30dca77dd" />
+
 
 
 
