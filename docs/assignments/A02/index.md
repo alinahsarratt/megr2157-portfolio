@@ -35,7 +35,7 @@ Mistake External Force FBD/Calculation
 Correct External Force FBD and Calculation
 
 
-<img width="855" height="665" alt="externalforces and official truss" src="https://github.com/user-attachments/assets/8d723f03-24bd-49f5-8b93-273458f5f8d2" />
+<img width="700" height="600" alt="externalforces and official truss" src="https://github.com/user-attachments/assets/8d723f03-24bd-49f5-8b93-273458f5f8d2" />
 
 
 
@@ -62,13 +62,13 @@ Cross Section Area
 Then I solved for the minimum cross sectional area of the pins given. The assumption was for a single shear in the instructions. In order to do this I needed to find the pin with the most force acting on that and for me it was pin C. It not only had the highest internal load acting on it but I also had other forces as well including the external 20kN force. It was noted that pin D is the same exact way, they are equal in loads so I could have chosen either one but they would each have the same outcome. Once that was picked I used it to calculate the cross sectional area. In order to do this I first had to find the allowable shear stress using the allowable shear yield strength given and the safter factor of 4. Once I determined the allowable shear stress I used it and the max shear stress which in this case would be the 20kn force, to solve for the minimum cross sectional area of the pin. This was a value of 0.106in^2 and 68,387mm^2. Here I did a quick mental check to make sure that cross sectional area was smaller than the cross sectional area of the truss and it was. So I proceeded 
 
 
-<img width="662" height="755" alt="areacross" src="https://github.com/user-attachments/assets/c68532ce-587c-4d7c-8a04-521873fd2823" />
+<img width="700" height="800" alt="areacross" src="https://github.com/user-attachments/assets/c68532ce-587c-4d7c-8a04-521873fd2823" />
 
 
 Diameter calculation 
 I shortly after found the diameter of each pin because I thought it would be useful later in my CAD design. 
 
-<img width="265" height="155" alt="pindiameter" src="https://github.com/user-attachments/assets/bb80aa48-8555-47fe-a509-1e790a887eab" />
+<img width="150" height="200" alt="pindiameter" src="https://github.com/user-attachments/assets/bb80aa48-8555-47fe-a509-1e790a887eab" />
 
 Weight Calculations 
 
@@ -76,29 +76,31 @@ The last thing I did before proceeding to making the CAD model for the design wa
 
 I followed up with the calculation of the pin weights. I realized I needed to assume a width for each member so I could use that width and the truss cross sectional area to solve for the thickness of each member. This was important because that thickness would directly affect the length of each pin. I assumed to use a width of 30mm making the thickness of each member 8.2. I had originally made the mistake of not taking into account that the amount of members at each pin would affect how long that pin would have to be. I originally thought that each pin would be equal in length but I quickly caught myself and realized that wasn't the case. So after I corrected my mistake by breaking the pins up by how many members were attached to each and calculated each of their lengths based off of that. These lengths were then used in the weight calculation as depicted below. 
 
-<img width="690" height="900" alt="weight calculations" src="https://github.com/user-attachments/assets/e79297ae-95e9-466c-b6c5-b8ed58f0de39" />
+<img width="600" height="700" alt="weight calculations" src="https://github.com/user-attachments/assets/e79297ae-95e9-466c-b6c5-b8ed58f0de39" />
 
 
-I then implemented the material low carbon steel into the Mass properties on the CAD system so it could calculate a mass for me which I then used to calculate the weight. which was the number 231,706.25 in pound force which is about 1,030,681N. I realized this was a huge number so I decided to look into it and change the properties to fix the units. I changed it to mm/N. Then got an adjusted mass number shown in the 2nd picture. 
+At the end of my project I then implemented the material low carbon steel into the Mass properties on the CAD system so it could calculate a mass for me which I then used to calculate the weight. I wanted to inlude this section in the weight calculations. The number I go from doing this was 231,706.25 in pound force which is about 1,030,681N. I realized this was a huge number so I decided to look into it and change the properties to fix the units. I changed it to mm/N. Then got an adjusted mass number shown in the 2nd picture. 
 
-<img width="500" height="600" alt="mass calculation CAD" src="https://github.com/user-attachments/assets/ace6ed30-bbfa-42ba-b9ed-fe2b171b4bac" />
+<img width="800" height="600" alt="mass calculation CAD" src="https://github.com/user-attachments/assets/ace6ed30-bbfa-42ba-b9ed-fe2b171b4bac" />
 
 
-<img width="500" height="600" alt="mass calculation metric" src="https://github.com/user-attachments/assets/3734c9d7-6e45-4772-b27b-8a82ed509702" />
+<img width="800" height="600" alt="mass calculation metric" src="https://github.com/user-attachments/assets/3734c9d7-6e45-4772-b27b-8a82ed509702" />
+
+
 
 CAD Design
 
 Next I began to work on my CAD design of this. I decided to try to use the 3d assembly tool on Creo to model my truss. I began to use the extrude feature to make each of my parts I was going to use in the assembly I first used the sketch inside extrude to make a basic rectangle, I adjusted the length for each member based on which one I was making, if the members were equal in length I used the same part file for them both in the assembly. I then drew two circles, each were 15mm from the bottom of the member and 10mm away from the end of the member. I adjusted the diameter to the diameter of the pin I calculated earlier so it would create a hold that size when I extruded it. 
 
 
-<img width="500" height="600" alt="trussextrude" src="https://github.com/user-attachments/assets/b5980c81-8462-4fe9-a249-5def01c4c9d9" />
+<img width="800" height="600" alt="trussextrude" src="https://github.com/user-attachments/assets/b5980c81-8462-4fe9-a249-5def01c4c9d9" />
 
 
 
 
 I then created a part files for my pins, if they were equal in length I used the same part file for each in the assembly for convenience. I used the extrude tool to create a circle and adjusted the diameter to the one I previously calculated. Each pin length was adjusted in the extrude tool to match the calculated values that came from how many members were attached to it. 
 
-<img width="500" height="600" alt="Screenshot 2026-09-02 233634" src="https://github.com/user-attachments/assets/d43d1a2c-b00c-4d1b-a9b2-ddae8acc1ca0" />
+<img width="800" height="600" alt="Screenshot 2026-09-02 233634" src="https://github.com/user-attachments/assets/d43d1a2c-b00c-4d1b-a9b2-ddae8acc1ca0" />
 
 After that I created an assembled model of my parts. Unfortunately during this part I had trouble with the constrains, the pins were made to the right length based on the calculated values but the members were not constraining so that they laid flat against each other so the pins were a bit offset in the assembly. This mis assembly only affected the pin connections that had more than 2 members attached to it. I tried multiple times to fix this issue but I was unsuccessful. I depicted the gaps present in the image below along with the assembly of my truss. 
 
