@@ -53,6 +53,8 @@ The last thing I did before proceeding to making the CAD model for the design wa
 
 I followed up with the calculation of the pin weights. I realized I needed to assume a width for each member so I could use that width and the truss cross sectional area to solve for the thickness of each member. This was important because that thickness would directly affect the length of each pin. I assumed to use a width of 30mm making the thickness of each member 8.2. I had originally made the mistake of not taking into account that the amount of members at each pin would affect how long that pin would have to be. I originally thought that each pin would be equal in length but I quickly caught myself and realized that wasn't the case. So after I corrected my mistake by breaking the pins up by how many members were attached to each and calculated each of their lengths based off of that. These lengths were then used in the weight calculation as depicted below. 
 
+I then implemented the material low carbon steel into the Mass properties on the CAD system so it could calculate a mass for me which I then used to calculate the weight. which was the number 231,706.25 in pound force which is about 1,030,681N. I realized this was a huge number so I decided to look into it and change the properties to fix the units. I changed it to mm/N. Then got an adjusted mass number shown in the 2nd picture. 
+
 
 
 CAD Design
