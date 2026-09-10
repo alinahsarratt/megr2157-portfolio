@@ -31,7 +31,10 @@ Now it was time to parametrically design this in a CAD software to compare the l
 When I first ran the test I got these displacement results depicted in the image below. 
 
 
-<img width="2048" height="1186" alt="displacement ss" src="https://github.com/user-attachments/assets/522308e2-8310-4593-9992-e99f4a471a0f" />
+<img width="2048" height="1196" alt="image" src="https://github.com/user-attachments/assets/e3417c5e-f702-4180-8bbf-31bf2040cfea" />
+
+
+
 
 
 
@@ -43,7 +46,7 @@ Here I realized the displacement FEA calculation of 2.25x10^-5in was way smaller
 <img width="2048" height="1186" alt="image" src="https://github.com/user-attachments/assets/149df645-3788-4f0d-ae28-129e681b4cf2" />
 
 
-<img width="2048" height="1213" alt="von mises ss" src="https://github.com/user-attachments/assets/d6b0e087-d81f-48f5-82d5-0547c0607602" />
+
 
 <img width="2250" height="1507" alt="image" src="https://github.com/user-attachments/assets/32d21771-20bb-4a1a-a185-255773a75ec0" /> 
 
@@ -53,6 +56,12 @@ Here I realized the displacement FEA calculation of 2.25x10^-5in was way smaller
 
 
 My hand calculation gave me an axial deflection of 0.009 in, while my FEA gave me 0.009007 in. When I calculated the percent difference, I only got about 0.078%, so basically the two values were almost exactly the same. I think they came out so close because my bar is pretty simple. It has the same cross section throughout the whole bar and the force is just pulling straight on it, so there really aren’t any stress concentrations or anything complicated that would make the FEA act much differently from my hand calculations.I would probably trust my FEA result a little more just because it actually uses my CAD model and includes the way I fixed and loaded the bar in SolidWorks. But since my hand calculation was less than 0.1% different from my FEA, I would still trust both results for this design. The bar and loading are simple enough that there really shouldn’t be a huge difference between the two anyway.
+
+
+
+
+This was also my captured von misses results from that run
+<img width="2048" height="1213" alt="image" src="https://github.com/user-attachments/assets/daeba07d-5127-495e-84d8-2b46b4cab322" />
 
 
 
@@ -81,6 +90,7 @@ There was an increase in length as I predicted which can also be seen in the sol
 
 
 Link to CAD STL file: 
+
 
 
 
