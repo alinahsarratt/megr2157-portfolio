@@ -89,8 +89,10 @@ There was an increase in length as I predicted which can also be seen in the sol
 <img width="3197" height="1810" alt="MEGR 2157 changed design parameters" src="https://github.com/user-attachments/assets/1250a2d2-bb3d-483a-accc-92a0caa12233" />
 
 
-Link to CAD STL file: 
 
+
+Link to CAD STL file: 
+https://1drv.ms/u/c/d816f7d0294be9ed/IQA_-DsUPjDDTrn4pPxSr0p6AQx2a92Sp5aEOyTy2mNhVgg?e=ObzCPz 
 
 
 
