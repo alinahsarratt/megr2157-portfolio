@@ -11,14 +11,36 @@ When looking at the given parameters, it would make the most sense to stay away 
 I decided to choose 400ibs for the force, 10x10^6 for the elastic modulus and 0.5in for the diameter. I kept the maximum elongation value the same. I used the assumed diameter I gave to solve for the length of my beam, with the elastic elongation formula depicted in the image below. The length I hand calculated for my beam was 44.18 inches. 
 
 
+<img width="3177" height="1912" alt="force and fixture ss" src="https://github.com/user-attachments/assets/30727c95-0142-49c4-b451-f17f47f33982" />
 
-Now it was time to parametrically design this in a CAD software to compare the length to my hand calculated one. I first extruded a 0.5 in diameter circle. Then, I was able to enter the parameters depicted in the image below into the Solid works software. I acquired the same length as I had in my hand calculations which was 44.18 inches. I then was able to run the simulation using the parameters I had assigned and my extruded material I assigned which was 6061 aluminum. When I first ran the test I got these displacement results depicted in the image below. 
+
+
+
+Now it was time to parametrically design this in a CAD software to compare the length to my hand calculated one. I first extruded a 0.5 in diameter circle. Then, I was able to enter the parameters depicted in the image below into the Solid works software. I acquired the same length as I had in my hand calculations which was 44.18 inches. I then was able to run the simulation using the parameters I had assigned and my extruded material I assigned which was 6061 aluminum. In the FEA calculation I was able to add the fixture and tensile forces depicted in the image below. 
+
+<img width="3177" height="1912" alt="force and fixture ss" src="https://github.com/user-attachments/assets/30727c95-0142-49c4-b451-f17f47f33982" />
+
+
+
+
+When I first ran the test I got these displacement results depicted in the image below. 
+
+
+<img width="2048" height="1186" alt="displacement ss" src="https://github.com/user-attachments/assets/522308e2-8310-4593-9992-e99f4a471a0f" />
+
 
 
 
 
 
 Here I realized the displacement FEA calculation of 2.25x10^-5in was way smaller than my target one of 0.009in, from this I immediately knew something was wrong. I realized in the FEA calculation I accidentally set my tensile force to 1ibf instead of 400ibf. So once I fixed it I got the correct FEA results. My actual maximum displacement was about 9.007x10^3 which was actually way closer to my target of 0.009in. I calculated the difference or discrepancy between the two values in the image below. 
+
+<img width="2048" height="1213" alt="von mises ss" src="https://github.com/user-attachments/assets/d6b0e087-d81f-48f5-82d5-0547c0607602" />
+
+<img width="2250" height="1507" alt="image" src="https://github.com/user-attachments/assets/32d21771-20bb-4a1a-a185-255773a75ec0" /> 
+
+
+
 
 
 
@@ -27,13 +49,30 @@ My hand calculation gave me an axial deflection of 0.009 in, while my FEA gave m
 
 
 
+
+One more thing I noticed was my yield strength max in my FEA simulation was a little low because I forgot to adjust it in solid works so I did a hand calculation that more accurately represents my safety factor which my beam was way below. Below is my hand calculation and my incorrect solidworks image. 
+
+<img width="812" height="637" alt="image" src="https://github.com/user-attachments/assets/46587dd1-5b97-4c86-95ef-48c2e525d045" />
+
+<img width="3195" height="1895" alt="factor of saftety ss 2" src="https://github.com/user-attachments/assets/d85412d0-96a8-4d78-9fea-53172702438c" />
+
+
+
+
 Next I wanted to test the length change of my beam if I changed some of my original parameters. Below in the image I depicted my original parameters and what I changed them two. I also listed what I guess what would happen once these parameters were changed and what actually occurred. 
+
+<img width="960" height="1130" alt="image" src="https://github.com/user-attachments/assets/a4193954-5360-44cb-9251-416a2ce55367" />
+
 
 
 
 There was an increase in length as I predicted which can also be seen in the solid works calculation. 
 
 
+<img width="3197" height="1810" alt="MEGR 2157 changed design parameters" src="https://github.com/user-attachments/assets/1250a2d2-bb3d-483a-accc-92a0caa12233" />
+
+
+Link to CAD STL file: 
 
 
 
