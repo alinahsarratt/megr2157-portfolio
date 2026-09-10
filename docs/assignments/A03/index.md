@@ -11,12 +11,17 @@ When looking at the given parameters, it would make the most sense to stay away 
 I decided to choose 400ibs for the force, 10x10^6 for the elastic modulus and 0.5in for the diameter. I kept the maximum elongation value the same. I used the assumed diameter I gave to solve for the length of my beam, with the elastic elongation formula depicted in the image below. The length I hand calculated for my beam was 44.18 inches. 
 
 
-<img width="3177" height="1912" alt="force and fixture ss" src="https://github.com/user-attachments/assets/30727c95-0142-49c4-b451-f17f47f33982" />
-
+<img width="580" height="1000" alt="image" src="https://github.com/user-attachments/assets/c87671e8-c4cb-466c-9870-93e0b7a68e90" />
 
 
 
 Now it was time to parametrically design this in a CAD software to compare the length to my hand calculated one. I first extruded a 0.5 in diameter circle. Then, I was able to enter the parameters depicted in the image below into the Solid works software. I acquired the same length as I had in my hand calculations which was 44.18 inches. I then was able to run the simulation using the parameters I had assigned and my extruded material I assigned which was 6061 aluminum. In the FEA calculation I was able to add the fixture and tensile forces depicted in the image below. 
+
+
+
+
+<img width="3197" height="1855" alt="equations and parameters solidworks" src="https://github.com/user-attachments/assets/bffd32f3-c9a8-4f9e-8796-5a34eab8bd31" />
+
 
 <img width="3177" height="1912" alt="force and fixture ss" src="https://github.com/user-attachments/assets/30727c95-0142-49c4-b451-f17f47f33982" />
 
@@ -34,6 +39,9 @@ When I first ran the test I got these displacement results depicted in the image
 
 
 Here I realized the displacement FEA calculation of 2.25x10^-5in was way smaller than my target one of 0.009in, from this I immediately knew something was wrong. I realized in the FEA calculation I accidentally set my tensile force to 1ibf instead of 400ibf. So once I fixed it I got the correct FEA results. My actual maximum displacement was about 9.007x10^3 which was actually way closer to my target of 0.009in. I calculated the difference or discrepancy between the two values in the image below. 
+
+<img width="2048" height="1186" alt="image" src="https://github.com/user-attachments/assets/149df645-3788-4f0d-ae28-129e681b4cf2" />
+
 
 <img width="2048" height="1213" alt="von mises ss" src="https://github.com/user-attachments/assets/d6b0e087-d81f-48f5-82d5-0547c0607602" />
 
