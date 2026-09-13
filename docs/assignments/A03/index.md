@@ -95,6 +95,9 @@ Link to CAD STL file:
 https://1drv.ms/u/c/d816f7d0294be9ed/IQA_-DsUPjDDTrn4pPxSr0p6AQx2a92Sp5aEOyTy2mNhVgg?e=ObzCPz 
 
 
+docs/assignments/A03/STL FILE
+
+
 
 
 
