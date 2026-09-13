@@ -23,7 +23,25 @@ The first steps I took was analyzing the materials I has to choose from. I resea
 
 
 ## Decide
-As previously stated I decided on PLA as my material, it is pretty brittle material but it doesn't allow for as much deformation which I thought would be simpler for designing within the parameters given. 
+As previously stated I decided on PLA as my material, it is pretty brittle material but it doesn't allow for as much deformation which I thought would be simpler for designing within the parameters given. For starting dimension assumptions I picked simple numbers at first to see if they would meet the design parameters. The calculations can be seen in the image below. 
+
+
+Feature 1
+
+Below is an image of the free body diagram I sketched and the parameters I have chosen for feature 1. Originally I had chosen a 15mm thickness to go along with feature 1. When I initially did the strength test the maximum stress was well within the safety parameters of 16.5 Mpa however when I went to see if it met the deflection parameters I saw that it was well over 0.30mm as depicted below. 
+
+
+
+
+With this I knew I needed to change my design for feature 1 I increased its thickness to 20mm and recalculated the deflection and saw it now was less than 0.30mm, meaning it fit the design parameters. I then had to recalculate the strength calculations to make sure that the new thickness still allowed for the maximum stress to be below the yield stress. When I redid the calculations I saw that it was well within the safety standard so my dimensions for feature 1 were complete. My calculations are shown below. 
+
+
+Feature 2 
+
+Next I checked the parameters for the dimensions I assumed for feature 2 luckily it fit within the design parameters off first assumption as depicted in the image below.
+
+
+
 
 
 ## Communicate
