@@ -38,7 +38,43 @@ With this I knew I needed to change my design for feature 1 I increased its thic
 
 Feature 2 
 
-Next I checked the parameters for the dimensions I assumed for feature 2 luckily it fit within the design parameters off first assumption as depicted in the image below.
+Next I checked the parameters for the dimensions I assumed for feature 2 luckily it fit within the design parameters off first assumption as depicted in the image below. 
+
+
+
+
+
+Sketch 
+After I completed solving for my dimensions I hands sketched what my CAD design would look like to use as a reference when creating my design in the software. 
+
+
+
+
+
+
+
+CAD 
+After the sketching process I began to design in the CAD software of solid works. I started with a sketch of an L shape and gave it the basic dimensions I solved for as depicted in the image below. 
+
+<img width="2000" height="1000" alt="CAD sketch A4 project" src="https://github.com/user-attachments/assets/d6476b2b-916d-48cc-8298-e36bb865804f" />
+
+Then I later decided to extrude it using the boss extrude feature on solid works and use the extrude cut feature to place the 3.4mm diameter holes to fit the bolts. I also used the extrude cut feature to make the holes to fit the shaft of the motor into. 
+
+<img width="2000" height="1000" alt="image" src="https://github.com/user-attachments/assets/ee03e182-0acd-4970-9fc8-63bdc3730f19" />
+
+<img width="2000" height="1000" alt="image" src="https://github.com/user-attachments/assets/48016910-8839-4c1b-a153-27bfba2d3f38" />
+
+After I completed these tasks I wanted to parmetrically solve for the two lengths on both feature 1 and feature 2. So i entered the global parameters as follows: 
+
+
+
+
+Then I used these global parameters to solve for each length also depicted in the equations in the image above, then I made sure....
+
+
+
+
+
 
 
 
