@@ -83,7 +83,7 @@ Then I used these global parameters to solve for each length also depicted in th
 After that I made sure to add to add PLA as the material since solidworks didn't already have it I had to add it to the registry then apply the material to my design.
 
 
-Link to A4 part download: 
+Link to A4 part download: <a href="A4 part.SLDPRT" download>Download the Part File</a>
 
 
 
