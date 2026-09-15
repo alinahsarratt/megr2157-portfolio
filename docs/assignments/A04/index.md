@@ -68,6 +68,7 @@ Then I later decided to extrude it using the boss extrude feature on solid works
 
 After I completed these tasks I wanted to parmetrically solve for the two lengths on both feature 1 and feature 2. So i entered the global parameters as follows: 
 
+<img width="2000" height="1000" alt="Parametric equations on solidworks ss" src="https://github.com/user-attachments/assets/e3861c75-4295-4ede-a629-480268e97501" />
 
 
 
