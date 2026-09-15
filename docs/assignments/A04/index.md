@@ -45,6 +45,7 @@ Next I checked the parameters for the dimensions I assumed for feature 2 luckily
 
 
 Sketch 
+
 After I completed solving for my dimensions I hands sketched what my CAD design would look like to use as a reference when creating my design in the software. 
 
 
@@ -54,6 +55,7 @@ After I completed solving for my dimensions I hands sketched what my CAD design 
 
 
 CAD 
+
 After the sketching process I began to design in the CAD software of solid works. I started with a sketch of an L shape and gave it the basic dimensions I solved for as depicted in the image below. 
 
 <img width="2000" height="1000" alt="CAD sketch A4 project" src="https://github.com/user-attachments/assets/d6476b2b-916d-48cc-8298-e36bb865804f" />
@@ -69,7 +71,10 @@ After I completed these tasks I wanted to parmetrically solve for the two length
 
 
 
-Then I used these global parameters to solve for each length also depicted in the equations in the image above, then I made sure....
+Then I used these global parameters to solve for each length also depicted in the equations in the image above, then I made sure to set each dimension equal to the global length parameter so it automatically adjusted for the parametrically designed lengths. This ended up adding about 1mm to each length compared to my hand calculated lengths. With constraining the design to the global parameters I did have one issue with length 2 it I could not get it to set equal to the length even though the global parameter equation correctly solved for the exact length I needed to input. So I ended up just setting that dimension equal to the exact length to global parameter calculated. 
+
+<img width="2000" height="1000" alt="parametrically designed  dimensions except for side" src="https://github.com/user-attachments/assets/2879b4c6-08e5-4222-a1fc-9f3c8d45badf" />
+
 
 
 
