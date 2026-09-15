@@ -73,12 +73,13 @@ After I completed these tasks I wanted to parmetrically solve for the two length
 
 Then I used these global parameters to solve for each length also depicted in the equations in the image above, then I made sure to set each dimension equal to the global length parameter so it automatically adjusted for the parametrically designed lengths. This ended up adding about 1mm to each length compared to my hand calculated lengths. With constraining the design to the global parameters I did have one issue with length 2 it I could not get it to set equal to the length even though the global parameter equation correctly solved for the exact length I needed to input. So I ended up just setting that dimension equal to the exact length to global parameter calculated. 
 
-<img width="2000" height="1000" alt="parametrically designed  dimensions except for side" src="https://github.com/user-attachments/assets/2879b4c6-08e5-4222-a1fc-9f3c8d45badf" />
+<img width="2000" height="1000" alt="parametrically designed  dimensions except for side" src="https://github.com/user-attachments/assets/2879b4c6-08e5-4222-a1fc-9f3c8d45badf" /> 
 
 
 
 
 
+After that I made sure to add to add PLA as the material since solidworks didn't already have it I had to add it to the registry then apply the material to my design.
 
 
 
@@ -86,4 +87,6 @@ Then I used these global parameters to solve for each length also depicted in th
 
 
 ## Communicate
+
+
 
