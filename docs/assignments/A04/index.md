@@ -46,7 +46,7 @@ Next I checked the parameters for the dimensions I assumed for feature 2 luckily
 
 Sketch 
 
-After I completed solving for my dimensions I hands sketched what my CAD design would look like to use as a reference when creating my design in the software. 
+After I completed solving for my dimensions I hands sketched what my CAD design would look like to use as a reference when creating my design in the software.
 
 
 
@@ -84,6 +84,7 @@ After that I made sure to add to add PLA as the material since solidworks didn't
 
 
 Link to A4 part download: <a href="A4 part.SLDPRT" download>Download the Part File</a>
+
 
 
 
