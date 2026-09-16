@@ -30,10 +30,16 @@ Feature 1
 
 Below is an image of the free body diagram I sketched and the parameters I have chosen for feature 1. Originally I had chosen a 15mm thickness to go along with feature 1. When I initially did the strength test the maximum stress was well within the safety parameters of 16.5 Mpa however when I went to see if it met the deflection parameters I saw that it was well over 0.30mm as depicted below. 
 
+<img width="1000" height="1285" alt="image" src="https://github.com/user-attachments/assets/5631665f-be2b-46de-96f8-5f188d8601c3" />
+
+
 
 
 
 With this I knew I needed to change my design for feature 1 I increased its thickness to 20mm and recalculated the deflection and saw it now was less than 0.30mm, meaning it fit the design parameters. I then had to recalculate the strength calculations to make sure that the new thickness still allowed for the maximum stress to be below the yield stress. When I redid the calculations I saw that it was well within the safety standard so my dimensions for feature 1 were complete. My calculations are shown below. 
+
+
+<img width="2300" height="1437" alt="image" src="https://github.com/user-attachments/assets/a4cfe19a-46f2-4087-ac8f-c0f298eae160" />
 
 
 Feature 2 
@@ -41,6 +47,7 @@ Feature 2
 Next I checked the parameters for the dimensions I assumed for feature 2 luckily it fit within the design parameters off first assumption as depicted in the image below. 
 
 
+<img width="2290" height="1525" alt="image" src="https://github.com/user-attachments/assets/be9deee3-4b1e-46a5-8ec5-846c97f86e8e" />
 
 
 
