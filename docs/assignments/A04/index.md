@@ -48,6 +48,7 @@ Sketch
 
 After I completed solving for my dimensions I hands sketched what my CAD design would look like to use as a reference when creating my design in the software.
 
+<img width="2000" height="3000" alt="IMG_3483" src="https://github.com/user-attachments/assets/7a9109aa-335b-426e-9ff6-238c51bbb75a" />
 
 
 
@@ -99,6 +100,6 @@ Link to download A4 part drawing:  <a href="A4 part.SLDDRW" download>Download th
 
 
 ## Communicate
-
+Overall, this project taught me the importance of evaluating for strength and deformation, along with how those specific parameters can play or affect your design. I also learned the importance of time management on this project by spacing it out over the past week I was able to leave room to work through my mistakes and recalculations which then allowed me to adjust my design. Overall I spent about 8 hours on this assignment in total.  
 
 
