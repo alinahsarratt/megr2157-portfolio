@@ -11,4 +11,11 @@ One of the first decisions I made was what material I was going to use, I decide
 
 ## Communicate
 Lessons learned:
+
 When it came to the governing factor of my design it was the strength analysis each time the dimension values on the strength analysis were greater than those of the stiffness analysis. The feature I am going to point out specifically for this would be feature A. The difference between the stiffness and strength analysis for that feature was 0.389 inches. 
+
+Next, there was multiple times the force load calculation from one feature fell into the calculation of the next connecting feature. One distinct instance this happened was when the applied load that acted at the center of feature C, trickled into the next feature D but because it was symmetric it actually split the applied load by 2. This meant instead feature D having an applied load of 800ibf it actually had a 400ibf load. There was no mistake in my work when it came to calculating this and how it fit into my dimension calculations for feature D. But something that would have caught this if the strength analysis calculation or stiffness calculation had an unreasonably high minimum cross sectional area. If it was too high or way larger than my other calculations I would have realized its because I doubled the applied load on each side which would have been incorrect. 
+
+One assumption that I made that would likely change the outcomes if it were different was that the cross sectional areas of the design were considered to be constant. 
+
+
