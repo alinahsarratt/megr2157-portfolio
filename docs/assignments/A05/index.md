@@ -51,6 +51,26 @@ After I conducted the stiffness analysis for feature B. I found the minimum cros
 Stiffness Analysis calculations and assumptions for Feature B:
 
 
+Since the minimum cross sectional area for feature B in the stiffness analysis was smaller than the minimum cross sectional area for the strength analysis, strength was the governing factor for feature B as well. This allowed me to base my base and thickness dimensions on this cross sectional area. Since it had to be at least 0.089 inches squared. I chose the base of 0.5 in and a thickness of 0.18 inches so it came out to 0.090 inches squared. 
+
+
+
+For feature D a similar thing happened. I used conducted the stiffness analysis for feature D to find which minimum cross sectional area was larger and therefore would be controlling. In the image below I found that the strength minimum cross sectional area was larger than the stiffness analysis. This area was 0.0444 inches squared, so I was able to choose my base and thickness after based on this area. So I chose my base as 0.25 in and my thickness as 0.18 in, this would give a total cross sectional area of 0.045 inches squared. All of this is shown in the image below. 
+
+
+
+
+The next thing that was solved for was feature C and E. Both of these features a stiffness analysis was conducted to solve for the base and the height of each. However the in the stiffness analysis it was bh cubed instead of squared. So I couldn't directly compare it to the strength analysis because it technically solved for different things. So I had to pick a base dimension and assume it so I could solve for the height in each analysis. Through the height calculation I could pick a controlling modulus for each feature. 
+
+
+
+
+
+
+
+
+
+
 
 
 
