@@ -14,7 +14,41 @@ Strength Analysis calculations and assumptions for Feature A:
 
 
 
-After strength analysis for feature A was complete I had a minimum diameter that I could use for the design dimensions. After I moved on to feature B 
+After strength analysis for feature A was complete I had a minimum diameter that I could use for the design dimensions. After I moved on to feature B. I modeled feature B as an axially loaded bar and had the same applied load transferred from A. After I made my assumptions for feature B I solved for the minimum cross sectional area. This is depicted in the image below. Even though the cross sectional area is equal to the base multiplied by the thickness I did not choose those dimensions until after the stiffness analysis so I wouldn't choose the wrong dimensions before I knew the controlling minimum area was. 
+
+Strength Analysis calculations and assumptions for Feature B:
+
+
+Once feature B was complete I then went on to complete my strength analysis calculations for feature C. I modeled C as a simply supported beam with a point load, in this case the 800ibf applied load, acting at the center. One of my assumptions was that this was symmetric so I knew in feature D that this load would be split in half because there is two feature D's on each side. Below are my calculations for the dimensions of the minimum base and height for the feature. Just as in B I did not decide on the official specific base and height dimensions until after my stiffness analysis. 
+
+Strength Analysis calculations and assumptions for Feature C: 
+
+
+Then I moved on to feature D, this was modeled as an axially loaded member however the applied force was 400ibf due to the symmetric center load of feature C as previously mentioned. Just as in feature B I was able to solve for the minimum cross sectional area.
+
+Strength Analysis calculations and assumptions for Feature D: 
+
+The last strength analysis was for feature E, I modeled this as a cantilever beam. Since I broke the design as two feature E's the halved applied load of 400ibf from feature D was transferred into feature E which is how I completed the calculations below. Similar to feature C I found the minimum base and height dimensions, however each base and height specifically would be chosen after the stiffness analysis. 
+
+Strength Analysis calculations and assumptions for Feature E:
+
+
+
+After I completed the strength analysis for each feature I followed the exact process but this time I completed a stiffness analysis. This allowed me to see what was the controlling factor for each feature within my design. Then I could pick dimensions based on that. 
+
+For feature A I solved for the diameter again using the equations below and a minimum deflection of 0.005 inches, that minimum deflection was used in every calculation going forward as well. 
+
+Stiffness Analysis calculations and assumptions for Feature A:
+
+
+
+
+Once I found the diameter from the stiffness calculation I compared it to the strength minimum diameter found before and realized that the strength minimum diameter was larger. This meant that the strength was my controlling factor for feature A so now I had my first set dimension of 0.968in diameter. 
+
+
+After I conducted the stiffness analysis for feature B. I found the minimum cross sectional area in terms of stiffness.
+
+Stiffness Analysis calculations and assumptions for Feature B:
 
 
 
