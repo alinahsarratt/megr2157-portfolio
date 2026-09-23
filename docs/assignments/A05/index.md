@@ -7,7 +7,18 @@ This week we were tasked to design a bracket out of one of the three given mater
 When considering the problem at hand we had to make initial design choices such as the material and what would be the applied load on the bracket. There was a range of 500 lbf < F < 800 lbf. There was also a need for assumptions to be made to aid in figuring out the design especially when it came to certain failures, so each of those had to be analyzed per feature. However there was one assumption already given to us which was that there was no consideration of direct shear stress failure.             
 
 ## Decide
-One of the first decisions I made was what material I was going to use, I decided to go with the A36 steel. I wanted the bracket to have a strong material so it could handle heavy loads since the second decesion I made was to design for the worst case scenario in the applied load which was 800 ibf. 
+One of the first decisions I made was what material I was going to use, I decided to go with the A36 steel. I wanted the bracket to have a strong material so it could handle heavy loads since the second decision I made was to design for the worst case scenario in the applied load which was 800ibf. After that I researched the steel material properties so I could use them in my design calculations. After the standard design choices were complete I started to calculate my dimensions for feature A. For each feature I started out with strength analysis then later went into a stiffness analysis. 
+
+Strength Analysis calculations and assumptions for Feature A:
+
+
+
+
+After strength analysis for feature A was complete I had a minimum diameter that I could use for the design dimensions. After I moved on to feature B 
+
+
+
+
 
 ## Communicate
 Lessons learned:
