@@ -30,13 +30,15 @@ Strength Analysis calculations and assumptions for Feature C:
 Then I moved on to feature D, this was modeled as an axially loaded member however the applied force was 400ibf due to the symmetric center load of feature C as previously mentioned. Just as in feature B I was able to solve for the minimum cross sectional area.
 
 Strength Analysis calculations and assumptions for Feature D: 
-<img width="570" height="1462" alt="image" src="https://github.com/user-attachments/assets/a90e2aa2-8b01-4ea7-9349-403e88f0d210" />
+
+<img width="447" height="1382" alt="image" src="https://github.com/user-attachments/assets/2ee27854-f68e-4898-824f-d24efa1cc6fc" />
 
 
 The last strength analysis was for feature E, I modeled this as a cantilever beam. Since I broke the design as two feature E's the halved applied load of 400ibf from feature D was transferred into feature E which is how I completed the calculations below. Similar to feature C I found the minimum base and height dimensions, however each base and height specifically would be chosen after the stiffness analysis. 
 
 Strength Analysis calculations and assumptions for Feature E:
-<img width="695" height="1450" alt="image" src="https://github.com/user-attachments/assets/957a8646-5b61-48dc-9ab5-43e1bf86d1ee" />
+
+<img width="725" height="905" alt="image" src="https://github.com/user-attachments/assets/36f892d6-f27b-4852-bf99-86d0ca29ca3b" />
 
 
 
@@ -46,6 +48,7 @@ For feature A I solved for the diameter again using the equations below and a mi
 
 Stiffness Analysis calculations and assumptions for Feature A:
 
+<img width="597" height="990" alt="image" src="https://github.com/user-attachments/assets/a1211c8d-ff41-4aa8-9c85-ffec6f5f4321" />
 
 
 
@@ -55,21 +58,46 @@ Once I found the diameter from the stiffness calculation I compared it to the st
 After I conducted the stiffness analysis for feature B. I found the minimum cross sectional area in terms of stiffness.
 
 Stiffness Analysis calculations and assumptions for Feature B:
+<img width="1400" height="1400" alt="image" src="https://github.com/user-attachments/assets/65b8b957-2e15-4863-9a3d-7eada93f3a46" />
+
 
 
 Since the minimum cross sectional area for feature B in the stiffness analysis was smaller than the minimum cross sectional area for the strength analysis, strength was the governing factor for feature B as well. This allowed me to base my base and thickness dimensions on this cross sectional area. Since it had to be at least 0.089 inches squared. I chose the base of 0.5 in and a thickness of 0.18 inches so it came out to 0.090 inches squared. 
 
 
 
+
 For feature D a similar thing happened. I used conducted the stiffness analysis for feature D to find which minimum cross sectional area was larger and therefore would be controlling. In the image below I found that the strength minimum cross sectional area was larger than the stiffness analysis. This area was 0.0444 inches squared, so I was able to choose my base and thickness after based on this area. So I chose my base as 0.25 in and my thickness as 0.18 in, this would give a total cross sectional area of 0.045 inches squared. All of this is shown in the image below. 
 
+<img width="570" height="1462" alt="image" src="https://github.com/user-attachments/assets/a90e2aa2-8b01-4ea7-9349-403e88f0d210" />
 
 
 
 The next thing that was solved for was feature C and E. Both of these features a stiffness analysis was conducted to solve for the base and the height of each. However the in the stiffness analysis it was bh cubed instead of squared. So I couldn't directly compare it to the strength analysis because it technically solved for different things. So I had to pick a base dimension and assume it so I could solve for the height in each analysis. Through the height calculation I could pick a controlling modulus for each feature. For each feature the strength was the controlling modulus this allowed me to have a base and height dimension for each feature. This is depicted in the image below. 
 
-Sketches 
 
+Stiffness analysis for feature C: 
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/81176255-0cac-43bf-bc29-cc995addd1d6" />
+
+
+
+
+Stiffness analysis for feature E: 
+<img width="695" height="1450" alt="image" src="https://github.com/user-attachments/assets/957a8646-5b61-48dc-9ab5-43e1bf86d1ee" />
+
+
+
+<img width="1300" height="1500" alt="image" src="https://github.com/user-attachments/assets/1432f559-f176-449c-a7eb-b2d1e742f580" />
+
+
+Sketches 
+ Strength sketch
+ <img width="1050" height="820" alt="image" src="https://github.com/user-attachments/assets/a23698d1-38aa-4dd8-bc97-960c0ed84dcb" />
+
+
+
+Stiffness sketch 
+<img width="1500" height="1300" alt="image" src="https://github.com/user-attachments/assets/cf8169fb-bae1-485c-b55f-1cdab72b7ca8" />
 
 
 
@@ -81,10 +109,21 @@ After I had to find the minimum cross-sectional area of the link, I used the 800
 I also had to make sure the link would not deform too much, so I did a stiffness analysis using \(\delta=FL/AE\). I used the maximum allowed deflection of 0.005 in and got a minimum area of 0.0166 in². This was way smaller than the 0.0889 in² I needed for strength, so strength ended up controlling my final dimensions. This is shown in the image below. 
 
 
+
+<img width="1340" height="1612" alt="image" src="https://github.com/user-attachments/assets/38f6c29f-6d64-48b1-922c-60326f90ed49" />
+
+
+
 Next I worked on the type of fits for each feature. For the hole that connects the link to Feature A, I needed a running/sliding fit so that the parts could actually move freely without having a bunch of extra space between them. I used Table 8a on page 64 of Machinery’s Handbook, 32nd edition. Since my basic diameter was 1.000 in, I used the 0.71–1.19 in range. I then chose an RC3 fit because it was the closest fit that would still allow the  parts to run freely. From there, I used the RC3 values in the table to determine the tolerances for the hole and shaft. Below is a picture of the table I used. 
+
+<img width="2000" height="1500" alt="image" src="https://github.com/user-attachments/assets/52008aca-e0fe-4245-bb5d-a9c8d56b36a5" />
+
 
 
 For the 1-inch shaft, I used an FN1 light drive fit because the design required light assembly pressure. Using the 0.95–1.19 in range in Table 11 on page 659 of Machinery’s Handbook, 32nd edition, I found the hole limits to be 1.0000–1.0005 in and the shaft limits to be 1.0008–1.0012 in. This creates a small interference between the shaft and hole, meaning some pressure is needed to assemble the parts. 
+
+<img width="3000" height="2000" alt="IMG_3523" src="https://github.com/user-attachments/assets/87cf9d8b-b60b-4606-af03-04d8f38e289d" />
+
 
 
 
