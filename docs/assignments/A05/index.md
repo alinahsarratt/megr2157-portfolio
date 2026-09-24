@@ -60,7 +60,25 @@ For feature D a similar thing happened. I used conducted the stiffness analysis 
 
 
 
-The next thing that was solved for was feature C and E. Both of these features a stiffness analysis was conducted to solve for the base and the height of each. However the in the stiffness analysis it was bh cubed instead of squared. So I couldn't directly compare it to the strength analysis because it technically solved for different things. So I had to pick a base dimension and assume it so I could solve for the height in each analysis. Through the height calculation I could pick a controlling modulus for each feature. 
+The next thing that was solved for was feature C and E. Both of these features a stiffness analysis was conducted to solve for the base and the height of each. However the in the stiffness analysis it was bh cubed instead of squared. So I couldn't directly compare it to the strength analysis because it technically solved for different things. So I had to pick a base dimension and assume it so I could solve for the height in each analysis. Through the height calculation I could pick a controlling modulus for each feature. For each feature the strength was the controlling modulus this allowed me to have a base and height dimension for each feature. This is depicted in the image below. 
+
+Sketches 
+
+
+
+
+Linkage 
+
+After I had to find the minimum cross-sectional area of the link, I used the 800 lbf applied load, a safety factor of 4, and the yield strength of A36 steel. This gave me a minimum area of 0.0889 in². However, since there is a 1-inch hole going through the link, I had to account for the material that would basically be missing from that section. I used \(A=(w-d)t\) and chose a width of 1.50 in and a thickness of 0.25 in. This gave me an actual net area of 0.125 in², which was greater than my minimum, so those dimensions worked.
+
+
+I also had to make sure the link would not deform too much, so I did a stiffness analysis using \(\delta=FL/AE\). I used the maximum allowed deflection of 0.005 in and got a minimum area of 0.0166 in². This was way smaller than the 0.0889 in² I needed for strength, so strength ended up controlling my final dimensions. This is shown in the image below. 
+
+
+Next I worked on the type of fits for each feature. For the hole that connects the link to Feature A, I needed a running/sliding fit so that the parts could actually move freely without having a bunch of extra space between them. I used Table 8a on page 64 of Machinery’s Handbook, 32nd edition. Since my basic diameter was 1.000 in, I used the 0.71–1.19 in range. I then chose an RC3 fit because it was the closest fit that would still allow the  parts to run freely. From there, I used the RC3 values in the table to determine the tolerances for the hole and shaft. Below is a picture of the table I used. 
+
+
+For the 1-inch shaft, I used an FN1 light drive fit because the design required light assembly pressure. Using the 0.95–1.19 in range in Table 11 on page 659 of Machinery’s Handbook, 32nd edition, I found the hole limits to be 1.0000–1.0005 in and the shaft limits to be 1.0008–1.0012 in. This creates a small interference between the shaft and hole, meaning some pressure is needed to assemble the parts. 
 
 
 
