@@ -11,26 +11,32 @@ One of the first decisions I made was what material I was going to use, I decide
 
 Strength Analysis calculations and assumptions for Feature A:
 
+<img width="655" height="1100" alt="image" src="https://github.com/user-attachments/assets/8fdddec8-4c02-499f-86ef-47762a0fb9b3" />
 
 
 
 After strength analysis for feature A was complete I had a minimum diameter that I could use for the design dimensions. After I moved on to feature B. I modeled feature B as an axially loaded bar and had the same applied load transferred from A. After I made my assumptions for feature B I solved for the minimum cross sectional area. This is depicted in the image below. Even though the cross sectional area is equal to the base multiplied by the thickness I did not choose those dimensions until after the stiffness analysis so I wouldn't choose the wrong dimensions before I knew the controlling minimum area was. 
 
 Strength Analysis calculations and assumptions for Feature B:
+<img width="1000" height="1500" alt="image" src="https://github.com/user-attachments/assets/f0e69238-2208-408f-9b25-2a3edc6ba2f1" />
 
 
 Once feature B was complete I then went on to complete my strength analysis calculations for feature C. I modeled C as a simply supported beam with a point load, in this case the 800ibf applied load, acting at the center. One of my assumptions was that this was symmetric so I knew in feature D that this load would be split in half because there is two feature D's on each side. Below are my calculations for the dimensions of the minimum base and height for the feature. Just as in B I did not decide on the official specific base and height dimensions until after my stiffness analysis. 
 
 Strength Analysis calculations and assumptions for Feature C: 
+<img width="1600" height="700" alt="image" src="https://github.com/user-attachments/assets/835bb3a5-5d6c-4a71-933d-d2099ba89d18" />
 
 
 Then I moved on to feature D, this was modeled as an axially loaded member however the applied force was 400ibf due to the symmetric center load of feature C as previously mentioned. Just as in feature B I was able to solve for the minimum cross sectional area.
 
 Strength Analysis calculations and assumptions for Feature D: 
+<img width="570" height="1462" alt="image" src="https://github.com/user-attachments/assets/a90e2aa2-8b01-4ea7-9349-403e88f0d210" />
+
 
 The last strength analysis was for feature E, I modeled this as a cantilever beam. Since I broke the design as two feature E's the halved applied load of 400ibf from feature D was transferred into feature E which is how I completed the calculations below. Similar to feature C I found the minimum base and height dimensions, however each base and height specifically would be chosen after the stiffness analysis. 
 
 Strength Analysis calculations and assumptions for Feature E:
+<img width="695" height="1450" alt="image" src="https://github.com/user-attachments/assets/957a8646-5b61-48dc-9ab5-43e1bf86d1ee" />
 
 
 
