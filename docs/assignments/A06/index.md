@@ -13,6 +13,9 @@ I started to model the cylindrical feature A first, instead of doing the paramet
 
 <img width="3165" height="1915" alt="A6 " src="https://github.com/user-attachments/assets/133d9eab-fb8f-4383-bf3e-edbb2c9a5111" />
 
+<img width="3177" height="1885" alt="image" src="https://github.com/user-attachments/assets/17d5b65f-8cd9-44cb-b97b-8a817be06fa2" />
+
+
 
 
 ## Communicate
