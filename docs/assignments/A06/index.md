@@ -16,7 +16,11 @@ I started to model the cylindrical feature A first, instead of doing the paramet
 <img width="3177" height="1885" alt="image" src="https://github.com/user-attachments/assets/17d5b65f-8cd9-44cb-b97b-8a817be06fa2" />
 
 After I made a rough design of the model I decided to add all the global parameters I needed to make the model to the design it parametrically. 
-<img width="2075" height="1092" alt="Global variables A6 ss" src="https://github.com/user-attachments/assets/24edc68c-1a09-46da-a285-745a1553d4f1" />
+<img width="2205" height="1255" alt="image" src="https://github.com/user-attachments/assets/cae6e9f5-6b58-4589-99bd-57f882fe4653" />
+
+<img width="2292" height="1170" alt="image" src="https://github.com/user-attachments/assets/ad039cb1-f338-436d-b9e1-77efc6578d15" />
+
+
 
 After that I first parametrically designed feature A tying the diameter to the equation as depicted below. 
 <img width="3162" height="1897" alt="diameter constrain" src="https://github.com/user-attachments/assets/467cbf2e-6cd2-4fc8-98a8-601a402216cf" /> 
