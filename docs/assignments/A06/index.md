@@ -50,6 +50,11 @@ I immediately knew I had to fix it so I quickly realized the real height of the 
 
 <img width="3157" height="1905" alt="finished part A6" src="https://github.com/user-attachments/assets/5297bea4-6cda-47f9-9de0-9d0bf243b9b1" />
 
+After that I decided to add tolerances on my feature A according to the clearance fit it was supposed to have last week, I based the tolerance dimensions on the Rc3 tables found in my machinery's handbook last week. 
+
+<img width="3145" height="1887" alt="tolerance addition to feature A" src="https://github.com/user-attachments/assets/a5e14651-955e-4d22-8259-b2142fed9e27" />
+
+
 
 
 
