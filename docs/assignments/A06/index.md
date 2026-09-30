@@ -23,7 +23,8 @@ After that I first parametrically designed feature A tying the diameter to the e
 
 After that I moved on to globally constrain feature B, this is depicted in the image below. I made sure to constrain the length of b as the length of 2.00 inches, the base of b as the 0.5 I assumed in my previous calculations I solved for, then I constrained the thickness to 0.18 inches as the equation solved for it. 
 
-<img width="2717" height="1507" alt="constrained B" src="https://github.com/user-attachments/assets/98c6c1af-b7c5-4af8-a429-ffaae5fe8a1c" />
+<img width="3125" height="1842" alt="image" src="https://github.com/user-attachments/assets/ac88d349-7950-4276-8c47-de73a2942d78" />
+
 
 I then realized feature B was not centered so I went ahead and centered this feature through the use of geometric constrains below is the uncentered, then below it centered version of this future. 
 
@@ -44,12 +45,6 @@ I immediately knew I had to fix it so I quickly realized the real height of the 
 <img width="3110" height="1907" alt="constrain part 2" src="https://github.com/user-attachments/assets/d6ba3794-fef0-463b-bb0f-3039e3777513" />
 
 <img width="3157" height="1905" alt="finished part A6" src="https://github.com/user-attachments/assets/5297bea4-6cda-47f9-9de0-9d0bf243b9b1" />
-
-
-
-
-
-
 
 
 
