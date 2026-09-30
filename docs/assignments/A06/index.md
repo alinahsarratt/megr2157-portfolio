@@ -81,31 +81,22 @@ After this I started making my engineering drawings for each part.
 
 
 Below are links to download each part and drawing file made:
-<h3>CAD Files</h3>
 
-<p>
-  <a href="RAW-URL-FOR-A6part.SLDPRT" download>
-    Download Bracket Part (.SLDPRT)
-  </a>
-</p>
+<a href="https://raw.githubusercontent.com/alinahsarratt/megr2157-portfolio/main/A6part.SLDPRT" download>
+  Download Feature A Part (.SLDPRT)
+</a>
 
-<p>
-  <a href="RAW-URL-FOR-Link-part-A6.SLDPRT" download>
-    Download Link Part (.SLDPRT)
-  </a>
-</p>
+<a href="https://raw.githubusercontent.com/alinahsarratt/megr2157-portfolio/main/A6part.SLDDRW" download>
+  Download Feature A Drawing (.SLDDRW)
+</a>
 
-<p>
-  <a href="RAW-URL-FOR-A6part.SLDDRW" download>
-    Download Bracket Drawing (.SLDDRW)
-  </a>
-</p>
+<a href="https://raw.githubusercontent.com/alinahsarratt/megr2157-portfolio/main/Link%20part%20A6.SLDPRT" download>
+  Download Link Part (.SLDPRT)
+</a>
 
-<p>
-  <a href="RAW-URL-FOR-Link-part-A6.SLDDRW" download>
-    Download Link Drawing (.SLDDRW)
-  </a>
-</p>
+<a href="https://raw.githubusercontent.com/alinahsarratt/megr2157-portfolio/main/Link%20part%20A6.SLDDRW" download>
+  Download Link Drawing (.SLDDRW)
+</a>
 
 
 
