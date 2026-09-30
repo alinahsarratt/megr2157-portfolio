@@ -86,13 +86,16 @@ Below are links to download each part and drawing file made:
   Download Feature A Part (.SLDPRT)
 </a>
 
+
 <a href="https://raw.githubusercontent.com/alinahsarratt/megr2157-portfolio/main/A6part.SLDDRW" download>
   Download Feature A Drawing (.SLDDRW)
 </a>
 
+
 <a href="https://raw.githubusercontent.com/alinahsarratt/megr2157-portfolio/main/Link%20part%20A6.SLDPRT" download>
   Download Link Part (.SLDPRT)
 </a>
+
 
 <a href="https://raw.githubusercontent.com/alinahsarratt/megr2157-portfolio/main/Link%20part%20A6.SLDDRW" download>
   Download Link Drawing (.SLDDRW)
