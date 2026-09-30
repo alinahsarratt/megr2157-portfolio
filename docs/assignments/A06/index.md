@@ -93,6 +93,9 @@ One instance where I used a specific equation was the diameter constrain on feat
 
 <img width="2292" height="1170" alt="image" src="https://github.com/user-attachments/assets/ad039cb1-f338-436d-b9e1-77efc6578d15" /> 
 
+For my tighter tolerance, I used the Feature A diameter, which is around 0.968 in and has a specific fit with the link. Since this is a mating surface and the parts need to fit together and move correctly, the tolerance is more important and needs to be tighter. A small change in this diameter could affect the clearance between Feature A and the link, so this is not really a dimension I would want a lot of variation in.
+
+For my looser tolerances, I used my basic two-decimal-place dimensions, which follow the X.XX ± .01 in tolerance from my tolerance block. These dimensions are not involved in a specific fit, so they are not as crucial to how the parts connect and function. Giving these dimensions the same super tight tolerances as Feature A would basically just make the part harder and more expensive to manufacture without actually improving the design.
 
 
 
