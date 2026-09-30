@@ -35,7 +35,19 @@ After that I moved on to constraining feature C to my calculations and global eq
 
 In attempting to constrain c I knew in order to have the total height of the box I need to combine the heights of features c, d and e together so I made a global parameter adding each height together to constrain the box to. However I made the mistake of adding the correction heights not the actual heights of the beams and axial bar. This resulted in my design being way to tall as shown in the image below. 
 
-<img width="3097" height="1890" alt="image" src="https://github.com/user-attachments/assets/8b3ce41e-fddd-4f30-8aec-649cd65e92a0" />
+<img width="3125" height="1765" alt="height E, base D, height C constrains" src="https://github.com/user-attachments/assets/52542810-c85e-4ffc-bac4-02330f89c5bf" />
+
+I immediately knew I had to fix it so I quickly realized the real height of the beam for c was equal to my global parameter b and so was my height for e, then the height for d was actually the base d global parameter I solved for in the equation. I was then as shown in the image above constrain the thickness of D as well while fixing this feature. I constrained D to its correct thickness of 0.56 inches. This fixed the shape of the box feature completely. In making the total height constrain equation I was also able to add the 0.5 inch, "b" global parameter constrain to feature E. The improved and fully constrained designed can be shown in the images below. 
+
+<img width="3180" height="1875" alt="constrained part 1" src="https://github.com/user-attachments/assets/fe62c8bd-58dc-499b-9442-df912896809d" />
+
+<img width="3110" height="1907" alt="constrain part 2" src="https://github.com/user-attachments/assets/d6ba3794-fef0-463b-bb0f-3039e3777513" />
+
+<img width="3157" height="1905" alt="finished part A6" src="https://github.com/user-attachments/assets/5297bea4-6cda-47f9-9de0-9d0bf243b9b1" />
+
+
+
+
 
 
 
