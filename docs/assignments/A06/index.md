@@ -19,7 +19,26 @@ After I made a rough design of the model I decided to add all the global paramet
 <img width="2075" height="1092" alt="Global variables A6 ss" src="https://github.com/user-attachments/assets/24edc68c-1a09-46da-a285-745a1553d4f1" />
 
 After that I first parametrically designed feature A tying the diameter to the equation as depicted below. 
-<img width="3162" height="1897" alt="diameter constrain" src="https://github.com/user-attachments/assets/467cbf2e-6cd2-4fc8-98a8-601a402216cf" />
+<img width="3162" height="1897" alt="diameter constrain" src="https://github.com/user-attachments/assets/467cbf2e-6cd2-4fc8-98a8-601a402216cf" /> 
+
+After that I moved on to globally constrain feature B, this is depicted in the image below. I made sure to constrain the length of b as the length of 2.00 inches, the base of b as the 0.5 I assumed in my previous calculations I solved for, then I constrained the thickness to 0.18 inches as the equation solved for it. 
+
+<img width="2717" height="1507" alt="constrained B" src="https://github.com/user-attachments/assets/98c6c1af-b7c5-4af8-a429-ffaae5fe8a1c" />
+
+I then realized feature B was not centered so I went ahead and centered this feature through the use of geometric constrains below is the uncentered, then below it centered version of this future. 
+
+<img width="3167" height="1887" alt="not centered feature b and A" src="https://github.com/user-attachments/assets/9d06ac87-becb-4cf6-aaab-7d1175f21271" />
+
+<img width="3137" height="1777" alt="centered feature B" src="https://github.com/user-attachments/assets/137fd0f7-e13c-44d4-9652-d3a57bf37683" />
+
+After that I moved on to constraining feature C to my calculations and global equations. I constrained the length of the box to length c in my global parameters which in this case was 4 inches. Then I constrained the height of C. to 1.03 inches, I later figured out this was wrong because it shouldn't have been the height of of the beam. The 1.03 was actually the height of the cross section of c the height of the beam was actually equal to my global parameter b. 
+
+In attempting to constrain c I knew in order to have the total height of the box I need to combine the heights of features c, d and e together so I made a global parameter adding each height together to constrain the box to. However I made the mistake of adding the correction heights not the actual heights of the beams and axial bar. This resulted in my design being way to tall as shown in the image below. 
+
+<img width="3097" height="1890" alt="image" src="https://github.com/user-attachments/assets/8b3ce41e-fddd-4f30-8aec-649cd65e92a0" />
+
+
+
 
 
 
