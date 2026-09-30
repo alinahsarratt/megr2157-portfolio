@@ -71,7 +71,12 @@ Then I started to work on my connecting link I entered my global variables and s
 
 
 Then I added my tolerances to the link based on my tables that I found last week. 
-<img width="3137" height="1795" alt="image" src="https://github.com/user-attachments/assets/4bab73b4-af28-4d7c-b122-e6d5312c6911" />
+<img width="3137" height="1795" alt="image" src="https://github.com/user-attachments/assets/4bab73b4-af28-4d7c-b122-e6d5312c6911" /> 
+
+
+After this I started making my engineering drawings for each part. 
+<img width="3100" height="1802" alt="image" src="https://github.com/user-attachments/assets/e09293fd-15d5-4ccc-a055-83bc08444625" />
+
 
 
 
