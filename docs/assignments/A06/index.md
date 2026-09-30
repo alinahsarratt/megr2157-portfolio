@@ -60,6 +60,18 @@ After that I decided to add tolerances on my feature A according to the clearanc
 <img width="2292" height="1170" alt="image" src="https://github.com/user-attachments/assets/ad039cb1-f338-436d-b9e1-77efc6578d15" />
 
 
+Then I started to work on my connecting link I entered my global variables and started to parametrically link all of my dimensions. Images below show this process. 
+
+<img width="2145" height="1045" alt="image" src="https://github.com/user-attachments/assets/4a9ff4d7-03e3-4673-99b0-846339276756" />
+
+
+<img width="3142" height="1820" alt="image" src="https://github.com/user-attachments/assets/d7fa20a2-7854-4133-acd8-3fe27ec64f8a" /> 
+
+<img width="2105" height="1790" alt="image" src="https://github.com/user-attachments/assets/b1945ef0-259e-4e62-b066-81650eeaf48e" />
+
+
+Then I added my tolerances to the link based on my tables that I found last week. 
+<img width="3137" height="1795" alt="image" src="https://github.com/user-attachments/assets/4bab73b4-af28-4d7c-b122-e6d5312c6911" />
 
 
 
