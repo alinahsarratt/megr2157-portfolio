@@ -93,6 +93,7 @@ Below are links to download each part and drawing file made:
 
 
 ## Communicate
+
 Reflection 
 One instance where I used a specific equation was the diameter constrain on feature A I knew that the strength equation to solve for it was calculated in my handwork from last week and that same calculation was done by the solid works software in my global parameters I attached both below to see the comparison. There was no need to change it from its original calculation later on in my assignment it worked with the rest of my design calculations. 
 
@@ -115,5 +116,7 @@ One lesson I learned from designing the link was how important tolerancing is fo
 
 I also learned that dimensioning and tolerancing are important for communicating how the design is actually supposed to function. The dimensions communicate the intended size and geometry of the link, while the tolerances show how much variation is acceptable without affecting its function. Adding the specific fit tolerances to the mating features makes it clear that those dimensions are more important to the function of the design than dimensions controlled by the general tolerance block.
 
+
+Overall I spent about 7 hours on this assignment with correcting dimensions and making the drawings as well.  
 
 
