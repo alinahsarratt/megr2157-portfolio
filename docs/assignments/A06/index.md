@@ -55,7 +55,9 @@ I also made sure in order to extrude the top box to the right constrained length
 
 After that I decided to add tolerances on my feature A according to the clearance fit it was supposed to have last week, I based the tolerance dimensions on the Rc3 tables found in my machinery's handbook last week. 
 
-<img width="3165" height="1935" alt="image" src="https://github.com/user-attachments/assets/2bba8ece-9d35-440a-9c62-74d2aab74d8a" />
+<img width="3165" height="1935" alt="image" src="https://github.com/user-attachments/assets/2bba8ece-9d35-440a-9c62-74d2aab74d8a" /> 
+
+<img width="2292" height="1170" alt="image" src="https://github.com/user-attachments/assets/ad039cb1-f338-436d-b9e1-77efc6578d15" />
 
 
 
@@ -63,4 +65,13 @@ After that I decided to add tolerances on my feature A according to the clearanc
 
 
 ## Communicate
+Reflection 
+One instance where I used a specific equation was the diameter constrain on feature A I knew that the strength equation to solve for it was calculated in my handwork from last week and that same calculation was done by the solid works software in my global parameters I attached both below to see the comparison. There was no need to change it from its original calculation later on in my assignment it worked with the rest of my design calculations. 
+
+<img width="655" height="1127" alt="image" src="https://github.com/user-attachments/assets/25e8cae7-c574-45d1-91c1-67530c955c99" />
+
+
+<img width="2292" height="1170" alt="image" src="https://github.com/user-attachments/assets/ad039cb1-f338-436d-b9e1-77efc6578d15" /> 
+
+
 
