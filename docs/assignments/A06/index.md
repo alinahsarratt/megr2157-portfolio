@@ -50,6 +50,9 @@ I immediately knew I had to fix it so I quickly realized the real height of the 
 
 <img width="3157" height="1905" alt="finished part A6" src="https://github.com/user-attachments/assets/5297bea4-6cda-47f9-9de0-9d0bf243b9b1" />
 
+I also made sure in order to extrude the top box to the right constrained length I made sure to examine each of the different features minimum cross section height and for d the length of d. The height e was 1.122 inches the height c was 1.033 inches and the length d calculation was 2.00 inches. So since d had the largest minimum for this dimension I knew I had to use this value to constrain the boxes extrusion to 2.00 inches as depicted in the picture directly above. 
+
+
 After that I decided to add tolerances on my feature A according to the clearance fit it was supposed to have last week, I based the tolerance dimensions on the Rc3 tables found in my machinery's handbook last week. 
 
 <img width="3165" height="1935" alt="image" src="https://github.com/user-attachments/assets/2bba8ece-9d35-440a-9c62-74d2aab74d8a" />
