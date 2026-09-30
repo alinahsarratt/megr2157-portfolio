@@ -75,3 +75,11 @@ One instance where I used a specific equation was the diameter constrain on feat
 
 
 
+
+
+Link Reflection
+One lesson I learned from designing the link was how important tolerancing is for making sure two separate parts actually work together. Even if the nominal dimensions seem like they should fit, manufacturing variations could cause the parts to be too tight or have too much extra space. For the connection between the link and Feature A, I used a running/sliding fit because the parts need to move freely while still staying properly connected. This showed me that tolerances have to be considered along with the calculated dimensions to make sure the final parts are compatible.     A5 - MEGR 2157 – Design Portfol…
+I also learned that dimensioning and tolerancing are important for communicating how the design is actually supposed to function. The dimensions communicate the intended size and geometry of the link, while the tolerances show how much variation is acceptable without affecting its function. Adding the specific fit tolerances to the mating features makes it clear that those dimensions are more important to the function of the design than dimensions controlled by the general tolerance block.
+
+
+
