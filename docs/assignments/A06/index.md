@@ -77,6 +77,9 @@ Then I added my tolerances to the link based on my tables that I found last week
 After this I started making my engineering drawings for each part. 
 <img width="3100" height="1802" alt="image" src="https://github.com/user-attachments/assets/e09293fd-15d5-4ccc-a055-83bc08444625" />
 
+<img width="2120" height="1435" alt="image" src="https://github.com/user-attachments/assets/0241f57d-1606-4a5e-b5c5-9ab4686927de" />
+
+
 
 
 
