@@ -52,7 +52,7 @@ I immediately knew I had to fix it so I quickly realized the real height of the 
 
 After that I decided to add tolerances on my feature A according to the clearance fit it was supposed to have last week, I based the tolerance dimensions on the Rc3 tables found in my machinery's handbook last week. 
 
-<img width="3145" height="1887" alt="tolerance addition to feature A" src="https://github.com/user-attachments/assets/a5e14651-955e-4d22-8259-b2142fed9e27" />
+<img width="3165" height="1935" alt="image" src="https://github.com/user-attachments/assets/2bba8ece-9d35-440a-9c62-74d2aab74d8a" />
 
 
 
