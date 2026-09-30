@@ -80,7 +80,15 @@ After this I started making my engineering drawings for each part.
 <img width="2120" height="1435" alt="image" src="https://github.com/user-attachments/assets/0241f57d-1606-4a5e-b5c5-9ab4686927de" />
 
 
+Below are links to download each part and drawing file made:
 
+<a href="A6part.SLDPRT">Bracket SolidWorks Part File</a>
+
+<a href="Link%20part%20A6.SLDPRT">Link SolidWorks Part File</a>
+
+<a href="A6part.SLDDRW">Bracket SolidWorks Drawing</a>
+
+<a href="Link%20part%20A6.SLDDRW">Link SolidWorks Drawing</a>
 
 
 
