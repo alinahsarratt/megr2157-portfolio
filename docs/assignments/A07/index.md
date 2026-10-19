@@ -17,7 +17,8 @@ After that I had to decide what I wanted my constrains to be.
 
 
 ## Decide
-I started with a fixed geometry inside the T shape but then I remembered that the fit of the inner T shape was designed to the slide. This helped me decide to constrain all the inner contact surfaces to a rolling/Sliding fit. 
+
+I applied Fixed Geometry to the inner T-shaped opening. I assumed that although the bracket has sufficient clearance to be installed onto the T-beam with a sliding fit, it remains stationary during operation. This fixture represents a simplified rigid connection between the bracket and the supporting beam.
 
 <img width="1267" height="742" alt="image" src="https://github.com/user-attachments/assets/5e0c12e2-c96f-49ac-81ad-74f9f65666e1" />
 
