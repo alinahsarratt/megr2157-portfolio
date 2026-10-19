@@ -18,10 +18,20 @@ After that I had to decide what I wanted my constrains to be.
 
 ## Decide
 
-I applied Fixed Geometry to the inner T-shaped opening. I assumed that although the bracket has sufficient clearance to be installed onto the T-beam with a sliding fit, it remains stationary during operation. This fixture represents a simplified rigid connection between the bracket and the supporting beam.
+At first I input fixed geometry to the inner T-shaped opening. I assumed that although the bracket has sufficient clearance to be installed onto the T-beam with a sliding fit, it remains stationary during operation. This fixture represents a simplified rigid connection between the bracket and the supporting beam.
 
 <img width="1267" height="742" alt="image" src="https://github.com/user-attachments/assets/5e0c12e2-c96f-49ac-81ad-74f9f65666e1" />
 
+After I fixed the geometry I input the load the distributed strap load of 800ibf on my feature A. At first this load went around the entire circle instead of just acting on the top half as depicted below. 
+
+<img width="558" height="365" alt="image" src="https://github.com/user-attachments/assets/dd55df23-3d77-4704-a3e3-5ed69d4d26cb" />
+
+I realized I need to add a split plan so the load would only be placed on the top portion of the feature that comes directly in contact with the strap. 
+
+<img width="1266" height="735" alt="image" src="https://github.com/user-attachments/assets/01726190-51dc-4771-a37b-b6f39fa7fb90" />
+
+
+After this the pre
 
 ## Communicate
 
