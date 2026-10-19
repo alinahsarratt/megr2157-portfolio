@@ -11,7 +11,15 @@ At first I had to make sure all of my parameters were right, there essentially w
 
 
 
+
+
+After that I had to decide what I wanted my constrains to be. 
+
+
 ## Decide
+I started with a fixed geometry inside the T shape but then I remembered that the fit of the inner T shape was designed to the slide. This helped me decide to constrain all the inner contact surfaces to a rolling/Sliding fit. 
+
+<img width="1267" height="742" alt="image" src="https://github.com/user-attachments/assets/5e0c12e2-c96f-49ac-81ad-74f9f65666e1" />
 
 
 ## Communicate
