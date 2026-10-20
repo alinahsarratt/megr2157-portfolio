@@ -31,7 +31,9 @@ I realized I need to add a split plan so the load would only be placed on the to
 <img width="1266" height="735" alt="image" src="https://github.com/user-attachments/assets/01726190-51dc-4771-a37b-b6f39fa7fb90" />
 
 
-After this the pre
+After I needed to input the mesh on my design, for my first study I decided to run the it using the default mesh. 
+<img width="1164" height="722" alt="image" src="https://github.com/user-attachments/assets/05f931e3-da2a-421b-88cf-be7015fc0580" />
+
 
 ## Communicate
 
