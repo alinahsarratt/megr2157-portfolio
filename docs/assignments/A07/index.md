@@ -100,7 +100,8 @@ After I reran the FEA using the medium mesh and these were my results:
 
 <img width="1278" height="777" alt="image" src="https://github.com/user-attachments/assets/3ecff46e-bea8-4915-9f54-80f3e5cebb91" />
 
-<img width="1215" height="752" alt="image" src="https://github.com/user-attachments/assets/57abdf95-8071-43d2-b7c3-36abc7fca384" 
+<img width="1215" height="752" alt="image" src="https://github.com/user-attachments/assets/56b6e103-e6e3-4ba6-b4ac-e10788fcda2c" />
+
 <img width="1274" height="766" alt="image" src="https://github.com/user-attachments/assets/70c01505-eddb-4e5f-8820-af9d9a815824" />
 
 Since there was not a sign of stress convergence but displacement was approaching convergence I ran it with the fine mesh and these were the results. 
