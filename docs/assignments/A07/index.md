@@ -123,6 +123,13 @@ Outer loop 2
 
 I wanted to thicken feature B a little bit to try to reduce the max stresses where feature A and feature B connect as shown in the image previously. I also wanted to make the bracket a lot lighter when considering is mass so I also removed some unneeded material. I essentially removed material that was all blue because there was little to no stress in these areas on the design. 
 
+I ended up removing material from the sides of the bracket and I added more fillets to the front edge of my feature B, however I had to redo the constrains and add some to hold the front fillet edges in order to rerun the FEA it is depicted in the image below. 
+
+
+<img width="1276" height="733" alt="image" src="https://github.com/user-attachments/assets/c2b12200-7235-47bb-b399-7889a7417775" />
+
+
+
 
 
 
