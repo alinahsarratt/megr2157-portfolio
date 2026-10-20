@@ -38,6 +38,8 @@ When I went to run the study after it informed me that I had under constrained b
 
 <img width="362" height="336" alt="image" src="https://github.com/user-attachments/assets/247fabc2-3628-4855-93d8-a1401840d929" />
 
+Inner loop 1
+
 These were the result of my first FEA study run with the medium mesh 
 
 <img width="1241" height="715" alt="image" src="https://github.com/user-attachments/assets/6a0b65b5-5efe-48a9-9ce3-f9d9e21e3ab4" />
@@ -61,6 +63,23 @@ These were the results I got:
 <img width="887" height="622" alt="image" src="https://github.com/user-attachments/assets/d42b5fde-835e-4d10-bdea-fc18bcc06e3d" />
 
 <img width="1275" height="746" alt="image" src="https://github.com/user-attachments/assets/3a64e740-0c48-460b-8060-9f05d9d7bfee" />
+
+After I reran an got my results from the fine mesh. I then realized my results were not converging at all they were increasing, so I analyzed on the feature where the max stress was occurring so I could see what was potentially happening. On each test it was occurring here. 
+
+<img width="330" height="329" alt="image" src="https://github.com/user-attachments/assets/c7ce54f0-c458-4fee-8ed4-04ed8ce00a12" />
+
+I realized I might be able to take out the sharp edge and make it a fillet to help with the loading. So I took it out of the inner loop 1 now and kicked it out to the outer loop to fix its geometry. Since I had reached max inner loop tests I was able to kick it out. 
+
+
+Outer Loop 1
+
+For my geometric changes of my first outer loop I decided to make a fillet on the features of B and A. on the straight vertical edges along feature B I made a fillet of 0.10 inches. Then I changed the back edge on feature A to a fillet of 0.05 inches. 
+<img width="1250" height="730" alt="image" src="https://github.com/user-attachments/assets/9ce92d49-0e0a-47a4-b368-90f82335a6ec" />
+
+
+
+
+
 
 
 
