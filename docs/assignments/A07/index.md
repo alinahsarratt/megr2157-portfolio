@@ -34,6 +34,9 @@ I realized I need to add a split plan so the load would only be placed on the to
 After I needed to input the mesh on my design, for my first study I decided to run the it using the default mesh. 
 <img width="1164" height="722" alt="image" src="https://github.com/user-attachments/assets/05f931e3-da2a-421b-88cf-be7015fc0580" />
 
+When I went to run the study after it informed me that I had under constrained bodies so I had to fix those in order to proceed. After I saw that my feature A could slide up and down so I constrained it to feature b in the image below with fixed geometry. 
+<img width="1238" height="744" alt="image" src="https://github.com/user-attachments/assets/28ab4e66-f6fe-49e8-b878-7a14803b10c6" />
+
 
 ## Communicate
 
