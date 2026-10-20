@@ -189,3 +189,9 @@ In each case, I noticed that my safety factor was below 1, meaning none of my de
 
 ## Communicate
 
+Throughout this assignment, I learned that even the smallest changes in my FEA setup can really mess with my results. One thing I noticed was how much the mesh size affected my maximum stress. When I switched from a coarse mesh to a fine mesh, the number of elements went up, meaning SolidWorks had to do way more calculations and took longer to solve. I also realized that just because I used a finer mesh doesn't automatically mean my results are right, especially if I messed up my constraints.
+
+Another thing I learned was that changing my design doesn't always mean it's going to perform better. When I added fillets and changed the shape of my bracket, I thought my stress would go down, but it actually went up. My third design ended up being the lightest and had the least amount of displacement, but somehow had the highest maximum stress. This showed me that fixing one problem in my design can sometimes create another one. In total with fixing my mistakes this assignment took me about 6 hours.
+
+
+
