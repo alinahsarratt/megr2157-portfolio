@@ -50,6 +50,20 @@ These were the result of my first FEA study run with the medium mesh
 <img width="1252" height="728" alt="image" src="https://github.com/user-attachments/assets/2ac12b34-7d5a-48bc-9c2e-2b0057b03818" />
 
 
+Next I went and changed the mesh size to coarse and reran it. 
+
+<img width="1256" height="764" alt="image" src="https://github.com/user-attachments/assets/31e0093b-18f9-4168-9862-2faf2ffba239" />
+
+These were the results I got:
+
+<img width="1136" height="720" alt="image" src="https://github.com/user-attachments/assets/a7542009-8cef-4272-b43b-a753dd4147cf" />
+
+<img width="887" height="622" alt="image" src="https://github.com/user-attachments/assets/d42b5fde-835e-4d10-bdea-fc18bcc06e3d" />
+
+<img width="1275" height="746" alt="image" src="https://github.com/user-attachments/assets/3a64e740-0c48-460b-8060-9f05d9d7bfee" />
+
+
+
 
 
 
