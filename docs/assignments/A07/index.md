@@ -35,7 +35,21 @@ After I needed to input the mesh on my design, for my first study I decided to r
 <img width="1164" height="722" alt="image" src="https://github.com/user-attachments/assets/05f931e3-da2a-421b-88cf-be7015fc0580" />
 
 When I went to run the study after it informed me that I had under constrained bodies so I had to fix those in order to proceed. After I saw that my feature A could slide up and down so I constrained it to feature b in the image below with fixed geometry. 
+
 <img width="362" height="336" alt="image" src="https://github.com/user-attachments/assets/247fabc2-3628-4855-93d8-a1401840d929" />
+
+These were the result of my first FEA study run with the medium mesh 
+
+<img width="1241" height="715" alt="image" src="https://github.com/user-attachments/assets/6a0b65b5-5efe-48a9-9ce3-f9d9e21e3ab4" />
+
+
+
+<img width="1242" height="727" alt="image" src="https://github.com/user-attachments/assets/e8626e2d-011a-44cd-a850-5c3d9a5315e8" />
+
+
+<img width="1252" height="728" alt="image" src="https://github.com/user-attachments/assets/2ac12b34-7d5a-48bc-9c2e-2b0057b03818" />
+
+
 
 
 
