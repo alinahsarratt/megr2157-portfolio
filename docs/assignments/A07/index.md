@@ -85,6 +85,17 @@ I first ran my new part with coarse mesh.
 
 These were the results: 
 
+First I noticed on the stress test that the maximum stress decreased in the area it was before it doesn't reach as high of a stress value. 
+<img width="856" height="637" alt="image" src="https://github.com/user-attachments/assets/eece6d3b-b568-4beb-ab2a-37068d50edef" />
+
+The next images were each test result:
+
+<img width="1236" height="734" alt="image" src="https://github.com/user-attachments/assets/1fe9aa7f-4993-4b66-b187-8bdc4c958ee5" />
+
+<img width="1271" height="758" alt="image" src="https://github.com/user-attachments/assets/1fb17b2e-f689-4e19-81ce-aee7ef647e0a" />
+
+<img width="1268" height="755" alt="image" src="https://github.com/user-attachments/assets/1e9b0750-e690-4dc4-8a11-62ce9019a687" />
+
 
 
 
