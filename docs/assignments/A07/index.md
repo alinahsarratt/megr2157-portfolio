@@ -86,9 +86,12 @@ I first ran my new part with coarse mesh.
 These were the results: 
 
 First I noticed on the stress test that the maximum stress decreased in the area it was before it doesn't reach as high of a stress value. 
+
+
 <img width="856" height="637" alt="image" src="https://github.com/user-attachments/assets/eece6d3b-b568-4beb-ab2a-37068d50edef" />
 
 The next images were each test result:
+
 
 <img width="1236" height="734" alt="image" src="https://github.com/user-attachments/assets/1fe9aa7f-4993-4b66-b187-8bdc4c958ee5" />
 
@@ -97,6 +100,7 @@ The next images were each test result:
 <img width="1268" height="755" alt="image" src="https://github.com/user-attachments/assets/1e9b0750-e690-4dc4-8a11-62ce9019a687" />
 
 After I reran the FEA using the medium mesh and these were my results:
+
 
 <img width="1278" height="777" alt="image" src="https://github.com/user-attachments/assets/3ecff46e-bea8-4915-9f54-80f3e5cebb91" />
 
@@ -116,6 +120,7 @@ Since there was not a sign of stress convergence but displacement was approachin
 Since it showed with the fine mesh that it was actually converging but not fully converged of 7%, it was specifcally 0.69% off of 7%, I wanted to make some last geometric changes so I kicked in out of the inner loop and went to the second outer loop where I would create my last design for the assignment. 
 
 Outer loop 2
+
 I wanted to thicken feature B a little bit to try to reduce the max stresses where feature A and feature B connect as shown in the image previously. I also wanted to make the bracket a lot lighter when considering is mass so I also removed some unneeded material. I essentially removed material that was all blue because there was little to no stress in these areas on the design. 
 
 
