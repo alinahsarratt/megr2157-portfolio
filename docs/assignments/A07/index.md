@@ -165,6 +165,11 @@ Below is a summary of a chart of my results from these simulations.
 In each case, I noticed that my safety factor was below 1, meaning none of my designs could safely handle the load. In my original design, I constrained two separate bodies instead of having one continuous body, which most likely affected my maximum stress results. This could have caused higher stress in certain areas because of how I set up my constraints. I also noticed that most of the stress was around the connection between the cylinder and the arm, which showed me where my design needed the most improvement.
 
 
+The LINK 
+Next, I went through the exact same procedure with my link connection I made. I first made sure to set the constrains and forces on my link below. I made a bearing force inside the top link hole that will feel the 800inf load from feature A
+ and decided to fix the bottom connection with a bearing fixture. 
+
+ <img width="1253" height="748" alt="image" src="https://github.com/user-attachments/assets/3fe5e6cc-caa6-4fac-9579-935edfed67d9" />
 
 
 
