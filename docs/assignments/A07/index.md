@@ -76,6 +76,17 @@ Outer Loop 1
 For my geometric changes of my first outer loop I decided to make a fillet on the features of B and A. on the straight vertical edges along feature B I made a fillet of 0.10 inches. Then I changed the back edge on feature A to a fillet of 0.05 inches. 
 <img width="1250" height="730" alt="image" src="https://github.com/user-attachments/assets/9ce92d49-0e0a-47a4-b368-90f82335a6ec" />
 
+After this geometry change was applied I went back into the inner loop to run the FEA study again with the different mesh sizes. 
+
+Inner Loop 2 
+I first ran my new part with coarse mesh. 
+
+<img width="1270" height="761" alt="image" src="https://github.com/user-attachments/assets/1d89a50b-b565-486d-b2dd-028c79415929" />
+
+These were the results: 
+
+
+
 
 
 
