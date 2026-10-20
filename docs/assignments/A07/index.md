@@ -96,6 +96,32 @@ The next images were each test result:
 
 <img width="1268" height="755" alt="image" src="https://github.com/user-attachments/assets/1e9b0750-e690-4dc4-8a11-62ce9019a687" />
 
+After I reran the FEA using the medium mesh and these were my results:
+
+<img width="1278" height="777" alt="image" src="https://github.com/user-attachments/assets/3ecff46e-bea8-4915-9f54-80f3e5cebb91" />
+
+<img width="1215" height="752" alt="image" src="https://github.com/user-attachments/assets/57abdf95-8071-43d2-b7c3-36abc7fca384" 
+<img width="1274" height="766" alt="image" src="https://github.com/user-attachments/assets/70c01505-eddb-4e5f-8820-af9d9a815824" />
+
+Since there was not a sign of stress convergence but displacement was approaching convergence I ran it with the fine mesh and these were the results. 
+
+<img width="883" height="638" alt="image" src="https://github.com/user-attachments/assets/4acd22bc-531e-4360-998e-540341e30f12" />
+
+<img width="1182" height="735" alt="image" src="https://github.com/user-attachments/assets/3ad983c0-ea40-4e8e-8a86-96d04983e7cb" />
+
+<img width="1195" height="729" alt="image" src="https://github.com/user-attachments/assets/bb6191eb-1fe8-4431-af83-c9a439d90d33" />
+
+
+Since it showed with the fine mesh that it was actually converging but not fully converged of 7%, it was specifcally 0.69% off of 7%, I wanted to make some last geometric changes so I kicked in out of the inner loop and went to the second outer loop where I would create my last design for the assignment. 
+
+Outer loop 2
+I wanted to thicken feature B a little bit to try to reduce the max stresses where feature A and feature B connect as shown in the image previously. I also wanted to make the bracket a lot lighter when considering is mass so I also removed some unneeded material. I essentially removed material that was all blue because there was little to no stress in these areas on the design. 
+
+
+
+
+
+
 
 
 
