@@ -128,6 +128,45 @@ I ended up removing material from the sides of the bracket and I added more fill
 
 <img width="1276" height="733" alt="image" src="https://github.com/user-attachments/assets/c2b12200-7235-47bb-b399-7889a7417775" />
 
+After these geometric changes were complete I entered the final inner loop for this assignment because we had a maximum of three designs. 
+
+
+Inner Loop 3 
+First I ran the coarse mesh test and I got these as my results
+<img width="1182" height="712" alt="image" src="https://github.com/user-attachments/assets/7afd3671-0d64-4145-9a07-be5e64709fe0" />
+
+<img width="1277" height="779" alt="image" src="https://github.com/user-attachments/assets/d1f42dc7-7fe3-40f9-91af-b7320a89ec15" />
+
+<img width="1275" height="772" alt="image" src="https://github.com/user-attachments/assets/3bd7dcac-96b5-4a98-b047-ab385f350d78" />
+
+After my first test with the coarse mesh I reran the FEA simulation with the medium mesh to check the convergence. 
+
+<img width="1207" height="768" alt="image" src="https://github.com/user-attachments/assets/6f9e4044-7b64-4fa9-a815-b987b0787faa" />
+
+<img width="1213" height="740" alt="image" src="https://github.com/user-attachments/assets/d7d9800c-5d71-4373-becc-e2a8fa6c3eea" />
+
+<img width="1211" height="703" alt="image" src="https://github.com/user-attachments/assets/bf3f7231-11c3-4ff0-9e8b-12dd09139c33" />
+
+After I saw that these two results were not converging especially when analyzing the stress values so I ran the fine mesh FEA simulation study after. These were the results I got from that:
+
+<img width="1274" height="708" alt="image" src="https://github.com/user-attachments/assets/6455e2b6-539e-4a74-a176-caf16511e90b" />
+
+<img width="1176" height="732" alt="image" src="https://github.com/user-attachments/assets/b4489141-3adb-4ff6-b3cc-c4319bca0c04" />
+
+<img width="1192" height="728" alt="image" src="https://github.com/user-attachments/assets/1c739ff4-6a7a-43d7-83bb-9c212b3a4bab" />
+
+After that I saw that the stresses were starting to converge but the displacement wasn't showing a converging tend however this was the end of my optimization process for this assignment. The mass also decreased from the original design. 
+
+Below is a summary of a chart of my results from these simulations. 
+
+
+<img width="484" height="120" alt="image" src="https://github.com/user-attachments/assets/c79b6af0-1193-4a89-af18-074f8216ec44" />
+
+In each case, I noticed that my safety factor was below 1, meaning none of my designs could safely handle the load. In my original design, I constrained two separate bodies instead of having one continuous body, which most likely affected my maximum stress results. This could have caused higher stress in certain areas because of how I set up my constraints. I also noticed that most of the stress was around the connection between the cylinder and the arm, which showed me where my design needed the most improvement.
+
+
+
+
 
 
 
