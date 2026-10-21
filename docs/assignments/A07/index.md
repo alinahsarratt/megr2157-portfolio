@@ -270,9 +270,20 @@ After completing the FEA simulations for all three designs, I was able to compar
 
 
 Below are links to my parts 
-[Download Bracket Part](downloads/A6part.SLDPRT)
 
-[Download Link Part](downloads/Link%20part%20A6.SLDPRT)
+
+<a href="https://raw.githubusercontent.com/alinahsarratt/megr2157-portfolio/main/A6part.SLDPRT" download>
+  Download A6 Part (.SLDPRT)
+</a>
+
+
+
+
+
+<a href="https://raw.githubusercontent.com/alinahsarratt/megr2157-portfolio/main/Link%20part%20A6.SLDPRT" download>
+  Download Link Part (.SLDPRT)
+</a>
+
 
 
 
