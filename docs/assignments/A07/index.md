@@ -199,7 +199,10 @@ Since there was an 18.9% increase in stress and a 5.45% increase in displacement
 
 <img width="1173" height="714" alt="image" src="https://github.com/user-attachments/assets/bc662824-6341-4bab-bdcd-d3fdb943dda7" />
 
+Even though the displacement on the fine mesh increased by only 0.98% the stress increased by 42%, but I reached my maximum of three interloop trials so I kicked it to the outer loop to make geometric changes. 
 
+Outer loop 1 
+I noticed that on some of the first FEA runs that my link fell below the yield strength so I know going into it I wanted to make it more sturdy so I decided to increase the thickness of my link and widen the top.
 
 
 
