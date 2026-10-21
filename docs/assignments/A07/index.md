@@ -202,8 +202,46 @@ Since there was an 18.9% increase in stress and a 5.45% increase in displacement
 Even though the displacement on the fine mesh increased by only 0.98% the stress increased by 42%, but I reached my maximum of three interloop trials so I kicked it to the outer loop to make geometric changes. 
 
 Outer loop 1 
-I noticed that on some of the first FEA runs that my link fell below the yield strength so I know going into it I wanted to make it more sturdy so I decided to increase the thickness of my link and widen the top.
+I noticed that on some of the first FEA runs that my link fell below the yield strength so I know going into it I wanted to make it more sturdy so I decided to increase the thickness of my link. I made the thickness increase by 0.50 inches. 
 
+<img width="578" height="453" alt="image" src="https://github.com/user-attachments/assets/7ee64d21-bfd6-4548-806b-e0d3c4ddaee2" />
+
+After I went back into the second inner loop to run the FEA simulation with the different meshes
+
+Inner Loop 2 
+I first ran my new design with the coarse mesh and these were the results 
+<img width="2320" height="1800" alt="image" src="https://github.com/user-attachments/assets/37f5554d-5d79-4911-a0df-02070d803674" />
+
+<img width="2370" height="1802" alt="image" src="https://github.com/user-attachments/assets/22fe7f7d-8387-46ca-9a5c-4504ddc96753" />
+
+<img width="2427" height="1852" alt="image" src="https://github.com/user-attachments/assets/e7a484ec-5bb4-4770-8898-57972c567bb8" />
+
+After I went ahead and ran the results with medium mesh to test the convergence, these were the results
+<img width="2415" height="1777" alt="image" src="https://github.com/user-attachments/assets/fd5162a4-b2e5-4558-a5d1-e8ac4af0217f" />
+
+<img width="2515" height="1892" alt="image" src="https://github.com/user-attachments/assets/d9e7bcc9-c09a-4a69-b525-491339f1810a" />
+
+
+The two meshes did not have a convergence of 7% in the displacement or max stress category so I went and ran it with the fine mesh. These were the results of this run. 
+
+<img width="2392" height="1832" alt="image" src="https://github.com/user-attachments/assets/960f95c1-d7bb-41ec-819a-378cc1595c01" />
+
+<img width="2355" height="1832" alt="image" src="https://github.com/user-attachments/assets/64398d15-4d8d-465f-bd86-1747cf93c5e8" />
+
+<img width="2632" height="1830" alt="image" src="https://github.com/user-attachments/assets/05deef29-a49d-4e84-a0dd-f0dbc6943169" />
+
+
+While the displacement from coarse to fine only had a 7.8% convergence the max stress first had a convergence of 12% then had another at 31.1%. Since this was my third run in the inner loop I kicked it back to the outer loop for one last geometric change. 
+
+Outer loop 3
+
+I decided to add some fillets to the edges that were receiving max stress at the top and removed some material from the middle to try to make it lighter it is depicted below. 
+
+<img width="2775" height="1895" alt="image" src="https://github.com/user-attachments/assets/acae9d46-71ec-4c10-9d0f-10cc9eba1308" />
+
+After I entered my last inner loop with my third design. 
+
+Inner Loop 3 
 
 
 
