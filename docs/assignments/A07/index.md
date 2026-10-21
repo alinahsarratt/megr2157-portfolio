@@ -260,7 +260,9 @@ The medium to fine did not have a convergence close to 7% with the stresses it d
 Below is a chart that summarized my designs for the link. 
 
 
+<img width="2043" height="770" alt="image" src="https://github.com/user-attachments/assets/6a633b78-dad1-41e5-896f-5e54e19a95a9" />
 
+After completing the FEA simulations for all three designs, I was able to compare how each geometric change affected the stress, displacement, and overall mass of the link. Design 1 had the lowest mass, but it also had the highest stress and displacement, making it the least effective design. For Design 2, I increased the thickness, which significantly reduced both stress and displacement, but also increased the mass. For Design 3, I added two holes and fillets to try to reduce the weight while maintaining strength. This lowered the mass compared to Design 2, but the stress and displacement increased slightly. Overall, I think Design 3 provided a good balance between strength and weight since it maintained a factor of safety above 3 while using less material. However, the stress results did not fully converge, so I would need to continue to test the mesh and refine it to really see if these results are true. 
 
 
 
