@@ -270,19 +270,9 @@ After completing the FEA simulations for all three designs, I was able to compar
 
 
 Below are links to my parts 
-<h3>SolidWorks CAD Files</h3>
+[Download Bracket Part](downloads/A6part.SLDPRT)
 
-<p>
-  <a href="Link%20part%20A6%281%29.SLDPRT" download>
-    Download Link Part (SolidWorks)
-  </a>
-</p>
-
-<p>
-  <a href="A6part%281%29.SLDPRT" download>
-    Download Bracket Part (SolidWorks)
-  </a>
-</p>
+[Download Link Part](downloads/Link%20part%20A6.SLDPRT)
 
 
 
