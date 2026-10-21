@@ -171,6 +171,35 @@ Next, I went through the exact same procedure with my link connection I made. I 
 
  <img width="1253" height="748" alt="image" src="https://github.com/user-attachments/assets/3fe5e6cc-caa6-4fac-9579-935edfed67d9" />
 
+When I went to run the first FEA with the coarse mesh it told me i was unconstrained and the link was rotating from side to side. So I constrained the sides and then ran the first FEA simulation. 
+
+Inner loop 1 
+These were my results with the first FEA test run with the coarse mesh 
+<img width="1106" height="736" alt="image" src="https://github.com/user-attachments/assets/f0f150c2-f89e-4cd9-8fe9-4f4728aadf6b" />
+
+<img width="1024" height="698" alt="image" src="https://github.com/user-attachments/assets/b315e18f-d492-4409-9f90-4b094551a7db" />
+
+<img width="1066" height="736" alt="image" src="https://github.com/user-attachments/assets/bec73e27-43de-47fe-a1d1-8de3df14f78d" />
+
+
+After I ran the medium mesh to see if my results started to converge these were my results
+
+<img width="940" height="728" alt="image" src="https://github.com/user-attachments/assets/2c727fdf-d998-4aa8-8e9f-2670ce8cd1c9" />
+
+<img width="1094" height="736" alt="image" src="https://github.com/user-attachments/assets/6c962145-9098-4b0a-bb79-2937c6f2c01d" />
+
+<img width="1176" height="706" alt="image" src="https://github.com/user-attachments/assets/1046c37b-3b14-4ee5-8f54-52fa98a26a60" />
+
+
+Since there was an 18.9% increase in stress and a 5.45% increase in displacement there was not a 7% convergence in each category. So I ran one more FEA with the fine mesh. 
+
+<img width="1174" height="721" alt="image" src="https://github.com/user-attachments/assets/ac3f9a71-1340-433f-b44e-daa60fdffffc" />
+
+<img width="1101" height="700" alt="image" src="https://github.com/user-attachments/assets/c6174882-f900-45f0-8857-84ff2aedb6d0" />
+
+<img width="1173" height="714" alt="image" src="https://github.com/user-attachments/assets/bc662824-6341-4bab-bdcd-d3fdb943dda7" />
+
+
 
 
 
