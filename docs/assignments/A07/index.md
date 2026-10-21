@@ -49,7 +49,7 @@ These were the result of my first FEA study run with the medium mesh
 <img width="1242" height="727" alt="image" src="https://github.com/user-attachments/assets/e8626e2d-011a-44cd-a850-5c3d9a5315e8" />
 
 
-<img width="1252" height="728" alt="image" src="https://github.com/user-attachments/assets/2ac12b34-7d5a-48bc-9c2e-2b0057b03818" />
+
 
 
 Next I went and changed the mesh size to coarse and reran it. 
@@ -62,7 +62,7 @@ These were the results I got:
 
 <img width="887" height="622" alt="image" src="https://github.com/user-attachments/assets/d42b5fde-835e-4d10-bdea-fc18bcc06e3d" />
 
-<img width="1275" height="746" alt="image" src="https://github.com/user-attachments/assets/3a64e740-0c48-460b-8060-9f05d9d7bfee" />
+
 
 After I reran an got my results from the fine mesh. I then realized my results were not converging at all they were increasing, so I analyzed on the feature where the max stress was occurring so I could see what was potentially happening. On each test it was occurring here. 
 
@@ -97,7 +97,7 @@ The next images were each test result:
 
 <img width="1271" height="758" alt="image" src="https://github.com/user-attachments/assets/1fb17b2e-f689-4e19-81ce-aee7ef647e0a" />
 
-<img width="1268" height="755" alt="image" src="https://github.com/user-attachments/assets/1e9b0750-e690-4dc4-8a11-62ce9019a687" />
+
 
 After I reran the FEA using the medium mesh and these were my results:
 
@@ -106,7 +106,7 @@ After I reran the FEA using the medium mesh and these were my results:
 
 <img width="1215" height="752" alt="image" src="https://github.com/user-attachments/assets/56b6e103-e6e3-4ba6-b4ac-e10788fcda2c" />
 
-<img width="1274" height="766" alt="image" src="https://github.com/user-attachments/assets/70c01505-eddb-4e5f-8820-af9d9a815824" />
+
 
 Since there was not a sign of stress convergence but displacement was approaching convergence I ran it with the fine mesh and these were the results. 
 
@@ -114,7 +114,7 @@ Since there was not a sign of stress convergence but displacement was approachin
 
 <img width="1182" height="735" alt="image" src="https://github.com/user-attachments/assets/3ad983c0-ea40-4e8e-8a86-96d04983e7cb" />
 
-<img width="1195" height="729" alt="image" src="https://github.com/user-attachments/assets/bb6191eb-1fe8-4431-af83-c9a439d90d33" />
+
 
 
 Since it showed with the fine mesh that it was actually converging but not fully converged of 7%, it was specifcally 0.69% off of 7%, I wanted to make some last geometric changes so I kicked in out of the inner loop and went to the second outer loop where I would create my last design for the assignment. 
@@ -137,7 +137,7 @@ First I ran the coarse mesh test and I got these as my results
 
 <img width="1277" height="779" alt="image" src="https://github.com/user-attachments/assets/d1f42dc7-7fe3-40f9-91af-b7320a89ec15" />
 
-<img width="1275" height="772" alt="image" src="https://github.com/user-attachments/assets/3bd7dcac-96b5-4a98-b047-ab385f350d78" />
+
 
 After my first test with the coarse mesh I reran the FEA simulation with the medium mesh to check the convergence. 
 
@@ -145,7 +145,7 @@ After my first test with the coarse mesh I reran the FEA simulation with the med
 
 <img width="1213" height="740" alt="image" src="https://github.com/user-attachments/assets/d7d9800c-5d71-4373-becc-e2a8fa6c3eea" />
 
-<img width="1211" height="703" alt="image" src="https://github.com/user-attachments/assets/bf3f7231-11c3-4ff0-9e8b-12dd09139c33" />
+
 
 After I saw that these two results were not converging especially when analyzing the stress values so I ran the fine mesh FEA simulation study after. These were the results I got from that:
 
@@ -153,9 +153,9 @@ After I saw that these two results were not converging especially when analyzing
 
 <img width="1176" height="732" alt="image" src="https://github.com/user-attachments/assets/b4489141-3adb-4ff6-b3cc-c4319bca0c04" />
 
-<img width="1192" height="728" alt="image" src="https://github.com/user-attachments/assets/1c739ff4-6a7a-43d7-83bb-9c212b3a4bab" />
 
-After that I saw that the stresses were starting to converge but the displacement wasn't showing a converging tend however this was the end of my optimization process for this assignment. The mass also decreased from the original design. 
+
+After that I saw that the stresses were starting to converge but the displacement wasn't showing a converging trend however this was the end of my optimization process for this assignment. The mass also decreased from the original design. 
 
 Below is a summary of a chart of my results from these simulations. 
 
@@ -179,7 +179,6 @@ These were my results with the first FEA test run with the coarse mesh
 
 <img width="1024" height="698" alt="image" src="https://github.com/user-attachments/assets/b315e18f-d492-4409-9f90-4b094551a7db" />
 
-<img width="1066" height="736" alt="image" src="https://github.com/user-attachments/assets/bec73e27-43de-47fe-a1d1-8de3df14f78d" />
 
 
 After I ran the medium mesh to see if my results started to converge these were my results
@@ -188,7 +187,6 @@ After I ran the medium mesh to see if my results started to converge these were 
 
 <img width="1094" height="736" alt="image" src="https://github.com/user-attachments/assets/6c962145-9098-4b0a-bb79-2937c6f2c01d" />
 
-<img width="1176" height="706" alt="image" src="https://github.com/user-attachments/assets/1046c37b-3b14-4ee5-8f54-52fa98a26a60" />
 
 
 Since there was an 18.9% increase in stress and a 5.45% increase in displacement there was not a 7% convergence in each category. So I ran one more FEA with the fine mesh. 
@@ -197,7 +195,7 @@ Since there was an 18.9% increase in stress and a 5.45% increase in displacement
 
 <img width="1101" height="700" alt="image" src="https://github.com/user-attachments/assets/c6174882-f900-45f0-8857-84ff2aedb6d0" />
 
-<img width="1173" height="714" alt="image" src="https://github.com/user-attachments/assets/bc662824-6341-4bab-bdcd-d3fdb943dda7" />
+
 
 Even though the displacement on the fine mesh increased by only 0.98% the stress increased by 42%, but I reached my maximum of three interloop trials so I kicked it to the outer loop to make geometric changes. 
 
@@ -214,7 +212,7 @@ I first ran my new design with the coarse mesh and these were the results
 
 <img width="2370" height="1802" alt="image" src="https://github.com/user-attachments/assets/22fe7f7d-8387-46ca-9a5c-4504ddc96753" />
 
-<img width="2427" height="1852" alt="image" src="https://github.com/user-attachments/assets/e7a484ec-5bb4-4770-8898-57972c567bb8" />
+
 
 After I went ahead and ran the results with medium mesh to test the convergence, these were the results
 <img width="2415" height="1777" alt="image" src="https://github.com/user-attachments/assets/fd5162a4-b2e5-4558-a5d1-e8ac4af0217f" />
@@ -228,7 +226,6 @@ The two meshes did not have a convergence of 7% in the displacement or max stres
 
 <img width="2355" height="1832" alt="image" src="https://github.com/user-attachments/assets/64398d15-4d8d-465f-bd86-1747cf93c5e8" />
 
-<img width="2632" height="1830" alt="image" src="https://github.com/user-attachments/assets/05deef29-a49d-4e84-a0dd-f0dbc6943169" />
 
 
 While the displacement from coarse to fine only had a 7.8% convergence the max stress first had a convergence of 12% then had another at 31.1%. Since this was my third run in the inner loop I kicked it back to the outer loop for one last geometric change. 
@@ -242,6 +239,28 @@ I decided to add some fillets to the edges that were receiving max stress at the
 After I entered my last inner loop with my third design. 
 
 Inner Loop 3 
+First I ran the FEA under the coarse mesh. These were my results
+<img width="2048" height="1491" alt="image" src="https://github.com/user-attachments/assets/a7d1eb41-3a76-4db6-8646-e83f6d680103" />
+
+<img width="2048" height="1576" alt="image" src="https://github.com/user-attachments/assets/d789923d-ba20-4191-91d6-e636152996a2" />
+
+After I ran the FEA with my medium mesh. Below are the results
+
+<img width="2410" height="1845" alt="image" src="https://github.com/user-attachments/assets/057f675e-b911-4280-babf-526edc1d0bf5" />
+
+<img width="2715" height="1815" alt="image" src="https://github.com/user-attachments/assets/83151954-fc03-4ac8-9435-a7aa7e3ef7be" />
+
+
+After this I got a convergence of stress of 7.44% so almost 7% flat, then I got a displacement convergence of 0.49%. But because it was just above 7% I went ahead and ran the last FEA with the fine mesh. Below are the results I got. 
+
+<img width="2420" height="1762" alt="image" src="https://github.com/user-attachments/assets/77786494-c2bc-4822-ace2-74e188700d0d" />
+
+The medium to fine did not have a convergence close to 7% with the stresses it decreased by 21.8%, then the displacenment only changed by 0.92%. However since this was my third design run this concluded the assignment. 
+
+Below is a chart that summarized my designs for the link. 
+
+
+
 
 
 
