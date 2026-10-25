@@ -18,6 +18,12 @@ After substituting my values, I calculated a minimum diameter of approximately 0
 
 ## Decide
 
-After the analysis that the given diameters of the shafts were sufficient enough to hold the power of the gears I was able to decide to stick to the given diameters for my design. After that I was able to move on to making decisions about my journal bearings. 
+After the analysis that the given diameters of the shafts were sufficient enough to hold the power of the gears I was able to decide to stick to the given diameters for my design. After that I was able to move on to making decisions about my journal bearings. Before I started my calculations for this section, I went to the resources listed in the assignment to choose my gears. I knew I needed to maintain the required 24:9 gear ratio, but I also wanted to make sure the gears would work with my given shaft diameters. This led me to choose an 18-tooth input gear and a 48-tooth output gear from the McMaster-Carr catalog. Both gears maintain the required ratio and have matching diametral pitches and pressure angles, allowing them to work together for my gearbox design. The links below are what I used for the gears I selected.
+
+https://www.mcmaster.com/products/7880k19/
+https://www.mcmaster.com/products/7880k24/
+
+
+
 ## Communicate
 
