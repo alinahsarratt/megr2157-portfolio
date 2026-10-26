@@ -23,7 +23,9 @@ After the analysis that the given diameters of the shafts were sufficient enough
 https://www.mcmaster.com/products/7880k19/
 https://www.mcmaster.com/products/7880k24/
 
+Since I already selected my 18-tooth and 48-tooth gears, I used their pitch diameters and the 20-degree pressure angle to calculate the tangential and radial forces. I started by using the torque and pitch diameter to calculate a tangential force of 2.50 lbf. From there, I used the pressure angle to find a radial force of approximately 0.910 lbf.
 
+After finding both forces, I combined them to calculate a resultant gear force of approximately 2.66 lbf. For my initial design, I decided to use two journal bearings on each shaft with the gear positioned in the middle. Since the setup is symmetrical, I assumed the bearings would split the load evenly, giving me approximately 1.33 lbf per bearing. These calculations helped me figure out the loads my bearings need to support so I can move forward with choosing their dimensions and materials. Below is my work for this process. 
 
 ## Communicate
 
