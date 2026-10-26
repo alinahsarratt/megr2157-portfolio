@@ -33,5 +33,10 @@ I started with the input shaft and calculated a bearing pressure of 42.56 psi, a
 
 After comparing my results, I noticed that the input bearing had higher pressure and velocity values, mainly because the input shaft is smaller and rotates faster. These results gave me a better idea of what my bearings need to handle and will help me choose a material that stays within the allowable pressure, velocity, and PV limits. Below is my work for these steps:
 
+
+Next for my gearbox, I decided to go with SAE 841 oil-embedded bronze sleeve bearings from McMaster-Carr because they're pretty durable, help reduce friction, and don't need much extra lubrication. For my 0.125-inch input shaft, I chose bearing 6391K111, and for my 0.250-inch output shaft, I went with 6391K126. Both bearings have a length of 0.250 inches.
+
+The bronze bearings have a max pressure of 2,000 psi, velocity of 1,200 ft/min, and PV of 50,000 psi·ft/min. From my Part 2b calculations, my highest values were 42.56 psi, 96 ft/min, and 4,086 psi·ft/min. Since my values are way below these limits, the material should work well for my design.
+
 ## Communicate
 
