@@ -27,5 +27,11 @@ Since I already selected my 18-tooth and 48-tooth gears, I used their pitch diam
 
 After finding both forces, I combined them to calculate a resultant gear force of approximately 2.66 lbf. For my initial design, I decided to use two journal bearings on each shaft with the gear positioned in the middle. Since the setup is symmetrical, I assumed the bearings would split the load evenly, giving me approximately 1.33 lbf per bearing. These calculations helped me figure out the loads my bearings need to support so I can move forward with choosing their dimensions and materials. Below is my work for this process. 
 
+For the next part , I needed to calculate the pressure, velocity, and PV values for my journal bearings so I could figure out what materials would work best. I decided to start with a bearing length of 0.250 inches for both shafts and used the bearing loads I calculated in the previous section.
+
+I started with the input shaft and calculated a bearing pressure of 42.56 psi, a surface velocity of approximately 96.00 ft/min, and a PV value of about 4,086 psi·ft/min. I then repeated the same calculations for the output shaft and got a pressure of 21.28 psi, a velocity of approximately 72.00 ft/min, and a PV value of about 1,532 psi·ft/min.
+
+After comparing my results, I noticed that the input bearing had higher pressure and velocity values, mainly because the input shaft is smaller and rotates faster. These results gave me a better idea of what my bearings need to handle and will help me choose a material that stays within the allowable pressure, velocity, and PV limits. Below is my work for these steps:
+
 ## Communicate
 
