@@ -99,9 +99,12 @@ Next I wanted to parametrically constrain the extruded length of the first half 
 
 <img width="3165" height="1937" alt="image" src="https://github.com/user-attachments/assets/f94fd05a-2cd3-4372-b32f-30b65b4491fd" />
 
+
 <img width="2497" height="1822" alt="image" src="https://github.com/user-attachments/assets/b5b96521-ae92-4ca5-8726-74b36ba68713" />
 
+After that I started making my gear cover using the same dimensions I made my gear box with. I needed the extrude and extrude cut tool after makinga rectangle sketch on solid works. I then made a boarder to match that of the shell I made. 
 
+<img width="3160" height="1897" alt="image" src="https://github.com/user-attachments/assets/5d20aaf5-efe8-443c-936d-b26950bbe149" />
 
 ## Communicate
 
