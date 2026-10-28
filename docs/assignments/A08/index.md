@@ -38,6 +38,17 @@ Next for my gearbox, I decided to go with SAE 841 oil-embedded bronze sleeve bea
 
 The bronze bearings have a max pressure of 2,000 psi, velocity of 1,200 ft/min, and PV of 50,000 psi·ft/min. From my Part 2b calculations, my highest values were 42.56 psi, 96 ft/min, and 4,086 psi·ft/min. Since my values are way below these limits, the material should work well for my design.
 
+
+<img width="3195" height="1730" alt="image" src="https://github.com/user-attachments/assets/aa951718-6da4-4024-a789-6eb6faae617a" />
+
+
+<img width="3167" height="1777" alt="image" src="https://github.com/user-attachments/assets/e44dc09d-f4d7-4fe1-9873-432680490b46" />
+
+
+Links to where I selected my gear bearings from:
+https://www.mcmaster.com/6391K111/
+https://www.mcmaster.com/6391K126/
+
 After I made a rough sketch about how I wanted my gearbox housing design to be. I also decided I wanted the design to connect with a nuts and bolts fit rather than a snap fit. 
 
 Next I downloaded the gear files that I chose so I can begin working on my solid works design. After I viewed the files I made a rough draft of my shafts, I didn't parametrically lock their dimensions yet I just entered the number dimensions I solved for. 
