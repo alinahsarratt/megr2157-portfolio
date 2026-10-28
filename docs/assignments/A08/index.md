@@ -84,8 +84,14 @@ Ok next I revisited the idea of what to do with my shafts I decided I wanted to 
 Next I wanted to make the four bolt holes on my gear box and also design the other half of it or the cover. As I was beginning to look at what bolts I could use and wear to put my holes in the shell I realized I forgot to include my shell thickness in the height since the shell is 0.10 inches thick I needed to add +0.2 inches to my parametric equation. 
 <img width="3145" height="1957" alt="image" src="https://github.com/user-attachments/assets/ce1eedc2-a008-493f-b297-f6c4a7e16948" />
 
+Then after this quick fix I decided to move on to make the holes for my screws I decided to go with a #1-64 machine screw to hold my two halves together to complete the gearbox housing. These screws have a diameter of 0.076 inches so it fits within my 0.10 inch thick shell. I used the hole feature to add the tapped screw holes. Below is this step completed. 
+<img width="3032" height="1845" alt="image" src="https://github.com/user-attachments/assets/da4dfe36-e351-471c-93fd-ac64ee482593" />
 
+However I saw that my holes didn't really fit with that 0.10 inch shell thickness like I thought they would so I decided to thicken the shell to 0.15 inches and adjust the gear height box accordingly as well. Then I saw how this adjusted my design and I was pleased with it which allowed me to move on to the next step. 
 
+<img width="2312" height="1810" alt="image" src="https://github.com/user-attachments/assets/8c966545-c6be-4887-84ac-38e29d62c418" />
+
+As I was looking at my gear box I realized I didn't constrain the height the holes are from the top of the box because that needs to be equal on bottom and top for the gears to turn so I decided to go ahead and do that as well. 
 
 
 
