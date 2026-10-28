@@ -47,6 +47,15 @@ Next I downloaded the gear files that I chose so I can begin working on my solid
 <img width="3122" height="1795" alt="image" src="https://github.com/user-attachments/assets/8a12154e-0145-4d36-a9a7-0fe10b2c7b07" />
 
 
+I then decided to make a sketch and design my gear box. I first made the rough length and height sketch based on the gears diameters so I knew they would at least fit in the box before I fully constrained them. After I hollowed out the extruded rectangle with the shell feature and used the extrude cut feature to make two holes with a rough diameter that wasn't fully constrained or set up yet. Thye first parametric constrain I did was the center distance for the holes based on the gears pitch diameters. This can be seen below.
+
+<img width="3167" height="1867" alt="image" src="https://github.com/user-attachments/assets/2f06d37a-78a0-41b5-904d-22d5cbb47a30" />
+
+<img width="2220" height="1032" alt="image" src="https://github.com/user-attachments/assets/e1a7b43f-fce5-4730-b2a0-dbade127f621" />
+
+
+<img width="3027" height="1910" alt="image" src="https://github.com/user-attachments/assets/16ec7f0c-209e-411b-aefc-b870e520b768" />
+
 
 
 ## Communicate
