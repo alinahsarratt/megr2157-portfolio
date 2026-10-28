@@ -93,6 +93,7 @@ However I saw that my holes didn't really fit with that 0.10 inch shell thicknes
 
 As I was looking at my gear box I realized I didn't constrain the height the holes are from the top of the box because that needs to be equal on bottom and top for the gears to turn so I decided to go ahead and do that as well. 
 
+<img width="1780" height="1445" alt="image" src="https://github.com/user-attachments/assets/f0b9487f-a9ac-4612-8a02-3900c9875636" />
 
 
 ## Communicate
