@@ -56,6 +56,26 @@ I then decided to make a sketch and design my gear box. I first made the rough l
 
 <img width="3027" height="1910" alt="image" src="https://github.com/user-attachments/assets/16ec7f0c-209e-411b-aefc-b870e520b768" />
 
+The next constraint I made was also for the gearbox housing. I wanted to constrain its length based specifically on the gears diameters and enough room to have 0.10 of an inch extra on each end. I made the equations in my global variables and then constrained the actual box as seen below. 
+
+<img width="3120" height="1795" alt="image" src="https://github.com/user-attachments/assets/1eb5c2cb-b528-42ca-90de-9a4225300016" />
+<img width="2490" height="1840" alt="image" src="https://github.com/user-attachments/assets/a97d8ca2-b139-431e-a91e-c22e6440eac6" />
+
+After I went ahead and did the same thing for the height of the gearbox. This can be seen in the images below. 
+<img width="3155" height="1722" alt="image" src="https://github.com/user-attachments/assets/124c0c68-8b56-42f1-9aff-8f6fa3556ef4" />
+<img width="2867" height="1810" alt="image" src="https://github.com/user-attachments/assets/4ee6e667-f67b-4d28-9ddd-ed57546d8e8c" />
+
+
+In the image above I also changed my mind I wanted a little more room for the gears to move so I made it 0.15 of an inch of room for both the length and the height dimensions for the box. 
+
+Ok next I revisited the idea of what to do with my shafts I decided I wanted to keep them the same length I assumed in my calculations which was 1 inch, I also thought about parametrically making the diameter the same as my diameter calculations I previously had. However, I knew what I solved for was the minimum diameter that could be used and I didn't want to make my design that close to the minimum value so I actually kept my shaft diameters the same as the rough design which was 0.250 inches and 0.125 inches. This also caused me not to mess with the gears I had already chosen with the same diameter. I could not adjust any of the files I downloaded including the the gears and gear bearings, so I left those dimensions alone. 
+
+Next I wanted to make the four bolt holes on my gear box and also design the other half of it or the cover. As I was beginning to look at what bolts I could use and wear to put my holes in the shell I realized I forgot to include my shell thickness in the height since the shell is 0.10 inches thick I needed to add +0.2 inches to my parametric equation. 
+<img width="3145" height="1957" alt="image" src="https://github.com/user-attachments/assets/ce1eedc2-a008-493f-b297-f6c4a7e16948" />
+
+
+
+
 
 
 ## Communicate
