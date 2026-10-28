@@ -95,6 +95,13 @@ As I was looking at my gear box I realized I didn't constrain the height the hol
 
 <img width="1780" height="1445" alt="image" src="https://github.com/user-attachments/assets/f0b9487f-a9ac-4612-8a02-3900c9875636" />
 
+Next I wanted to parametrically constrain the extruded length of the first half of the gearbox housing to give .125 extra room from the largest gear width. 
+
+<img width="3165" height="1937" alt="image" src="https://github.com/user-attachments/assets/f94fd05a-2cd3-4372-b32f-30b65b4491fd" />
+
+<img width="2497" height="1822" alt="image" src="https://github.com/user-attachments/assets/b5b96521-ae92-4ca5-8726-74b36ba68713" />
+
+
 
 ## Communicate
 
