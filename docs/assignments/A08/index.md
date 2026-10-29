@@ -120,6 +120,18 @@ This made me realize the gearbox needed a bit more extra room so I added some mo
 
 <img width="2435" height="1160" alt="image" src="https://github.com/user-attachments/assets/a3d9757c-a4e1-4b14-b0a6-da4f509902cf" />
 
+After that I begin to assemble my parts. As I begin to assemble my parts I had to make sure to mate all the parts together correctly so they stay in place on the assembly part file. 
+<img width="3150" height="1835" alt="image" src="https://github.com/user-attachments/assets/6e485395-5cce-4549-8d5c-9d0f90fb56f1" />
+<img width="3170" height="1885" alt="image" src="https://github.com/user-attachments/assets/8cf013b5-399d-4ba9-aac0-db92dc13a437" />
+<img width="3122" height="1890" alt="image" src="https://github.com/user-attachments/assets/5d7a0097-1df6-42d7-884f-e8223fb20c3c" />
+<img width="3017" height="1860" alt="image" src="https://github.com/user-attachments/assets/ccbcfb3b-0b6e-4871-8251-5447e4c59062" />
+
+I ended up make my shaft front face concentric with my gears so I actually didn't use the holes on the cover in this particular assembly but if there was need for a shaft position change the design still allows it. I also only made one of the holes concentric in this particular assembly so you could move the cover to see the inside where the gears are. 
+
+<img width="2547" height="1862" alt="image" src="https://github.com/user-attachments/assets/0fd123ea-18cf-4347-bce6-f8fd25eb87a9" />
+
+<img width="3140" height="1897" alt="image" src="https://github.com/user-attachments/assets/9dac416c-a138-4f06-8ea6-5172602898a6" />
+
 
 <img width="2772" height="1780" alt="image" src="https://github.com/user-attachments/assets/7e5555eb-f86a-44e9-acec-8b72a9780a9d" />
 
