@@ -134,8 +134,10 @@ I ended up make my shaft front face concentric with my gears so I actually didn'
 
 
 
+Drawings 
+Below are drawings to each part and assembly 
 
-<img width="2772" height="1780" alt="image" src="https://github.com/user-attachments/assets/7e5555eb-f86a-44e9-acec-8b72a9780a9d" />
+
 
 
 
