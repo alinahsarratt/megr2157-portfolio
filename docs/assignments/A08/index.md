@@ -102,6 +102,8 @@ Next I wanted to parametrically constrain the extruded length of the first half 
 
 <img width="2497" height="1822" alt="image" src="https://github.com/user-attachments/assets/b5b96521-ae92-4ca5-8726-74b36ba68713" />
 
+<img width="3140" height="1897" alt="image" src="https://github.com/user-attachments/assets/9dac416c-a138-4f06-8ea6-5172602898a6" />
+
 After that I started making my gear cover using the same dimensions I made my gear box with. I needed the extrude and extrude cut tool after makinga rectangle sketch on solid works. I then made a boarder to match that of the shell I made. 
 
 <img width="3160" height="1897" alt="image" src="https://github.com/user-attachments/assets/5d20aaf5-efe8-443c-936d-b26950bbe149" />
@@ -130,7 +132,7 @@ I ended up make my shaft front face concentric with my gears so I actually didn'
 
 <img width="2547" height="1862" alt="image" src="https://github.com/user-attachments/assets/0fd123ea-18cf-4347-bce6-f8fd25eb87a9" />
 
-<img width="3140" height="1897" alt="image" src="https://github.com/user-attachments/assets/9dac416c-a138-4f06-8ea6-5172602898a6" />
+
 
 
 <img width="2772" height="1780" alt="image" src="https://github.com/user-attachments/assets/7e5555eb-f86a-44e9-acec-8b72a9780a9d" />
