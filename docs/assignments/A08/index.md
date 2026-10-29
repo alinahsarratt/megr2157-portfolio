@@ -136,6 +136,8 @@ I ended up make my shaft front face concentric with my gears so I actually didn'
 
 Drawings 
 Below are drawings to each part and assembly 
+Unfortunately the downloaded files from the McMaster website would not let me make view drawings on solid works so I have attached the part drawings from the McMaster links I provided earlier referencing which parts I used below. The only drawings that were done by me on solid works were the assembly and two shaft drawings. 
+
 
 
 
