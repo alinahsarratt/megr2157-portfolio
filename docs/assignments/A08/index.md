@@ -106,5 +106,24 @@ After that I started making my gear cover using the same dimensions I made my ge
 
 <img width="3160" height="1897" alt="image" src="https://github.com/user-attachments/assets/5d20aaf5-efe8-443c-936d-b26950bbe149" />
 
+As I was making holes on the cover I had to make sure that the spacing was the same as the gear box so the holes would align. 
+
+<img width="2980" height="1865" alt="image" src="https://github.com/user-attachments/assets/7b5b071e-f0a4-4800-9f8f-2c6e222e1197" />
+
+Next I had to make the shaft holes on my gear cover and as I was trying to find the dimensions to align the holes up I realized that I didn't constrain the sides where the gear would go and I needed to make sure the larges gear fit within the length of the box so I had to constrain it first on the gear box then constrain it on my gear cover. 
+
+<img width="2700" height="1920" alt="image" src="https://github.com/user-attachments/assets/32837c7c-b80f-4489-b422-99e74468005c" />
+
+This made me realize the gearbox needed a bit more extra room so I added some more extra room in the length equation as well. This fixed the problem so I could move on to constraining my cover. 
+
+<img width="3065" height="1827" alt="image" src="https://github.com/user-attachments/assets/430f216b-5f6b-4493-ac9b-b602171c54df" />
+
+<img width="2435" height="1160" alt="image" src="https://github.com/user-attachments/assets/a3d9757c-a4e1-4b14-b0a6-da4f509902cf" />
+
+
+<img width="2772" height="1780" alt="image" src="https://github.com/user-attachments/assets/7e5555eb-f86a-44e9-acec-8b72a9780a9d" />
+
+
+
 ## Communicate
 
