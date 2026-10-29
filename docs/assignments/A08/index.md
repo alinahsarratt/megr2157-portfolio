@@ -8,12 +8,18 @@ One of first things I had to do was test to see if the given diameters for the s
 
 After finding these values, I created a free-body diagram showing the input torque and the opposing torque from the gear, along with the shaft's original diameter and length. I then used the power-transmission equation from my MEGR 2156 lecture, which referenced Machinery's Handbook. Before finding the minimum diameter, I calculated the transmitted power to be approximately 0.02182 HP. Using the power-transmission equation, I calculated a minimum required shaft diameter of approximately 0.0841 inches. Since the original diameter of 0.125 inches was larger than my calculated minimum, I determined that the input shaft was sufficient for the required power transmission under the assumed design conditions. You can see these steps in the image below: 
 
+<img width="1672" height="1287" alt="image" src="https://github.com/user-attachments/assets/60212b51-e934-4d64-970f-1a44871b7a6b" />
+
+
 
 After I needed to do the analysis for the output shaft. I followed a similar process to the input shaft, but this time I used the short-shaft equation from my MEGR 2156 lecture. My known values included the output torque of 1.25 in·lbf, the rotational speed of 1100 rpm, and the original shaft length of 1 inch.
 
 I started by creating another free-body diagram showing the torque applied by the gear and the opposing output torque. Since the gearbox is ideal, the transmitted power stays the same for both shafts, so I used approximately 0.02182 HP for my calculations. I then rearranged the short-shaft equation to solve for the minimum required diameter.
 
 After substituting my values, I calculated a minimum diameter of approximately 0.0910 inches. Comparing this to the original diameter of 0.250 inches, I found that the given shaft was definitely sufficient for the required power transmission under the lecture's assumptions. These steps can be seen in the image below. 
+
+<img width="1507" height="1032" alt="image" src="https://github.com/user-attachments/assets/dfe06618-6650-4115-ae91-261fea437da2" />
+
 
 
 ## Decide
@@ -33,6 +39,9 @@ I started with the input shaft and calculated a bearing pressure of 42.56 psi, a
 
 After comparing my results, I noticed that the input bearing had higher pressure and velocity values, mainly because the input shaft is smaller and rotates faster. These results gave me a better idea of what my bearings need to handle and will help me choose a material that stays within the allowable pressure, velocity, and PV limits. Below is my work for these steps:
 
+<img width="1002" height="1285" alt="image" src="https://github.com/user-attachments/assets/9a091d81-545b-42aa-9141-a439e70ad703" />
+
+
 
 Next for my gearbox, I decided to go with SAE 841 oil-embedded bronze sleeve bearings from McMaster-Carr because they're pretty durable, help reduce friction, and don't need much extra lubrication. For my 0.125-inch input shaft, I chose bearing 6391K111, and for my 0.250-inch output shaft, I went with 6391K126. Both bearings have a length of 0.250 inches.
 
@@ -50,6 +59,9 @@ https://www.mcmaster.com/6391K111/
 https://www.mcmaster.com/6391K126/
 
 After I made a rough sketch about how I wanted my gearbox housing design to be. I also decided I wanted the design to connect with a nuts and bolts fit rather than a snap fit. 
+
+<img width="960" height="1072" alt="image" src="https://github.com/user-attachments/assets/add5b54e-adaa-494e-9b0e-08b732541350" />
+
 
 Next I downloaded the gear files that I chose so I can begin working on my solid works design. After I viewed the files I made a rough draft of my shafts, I didn't parametrically lock their dimensions yet I just entered the number dimensions I solved for. 
 
@@ -145,3 +157,4 @@ Unfortunately the downloaded files from the McMaster website would not let me ma
 
 ## Communicate
 
+I spent about 8–9 hours working on my gearbox, and honestly a lot of that time was spent going back and fixing little mistakes I made along the way. I realized that even the smallest things, like where I placed my shaft holes, how my bearings fit, or how I connected my gearbox cover, could affect the entire design. There were definitely times when I thought I had something figured out, just to realize I needed to go back and change it. Although it was frustrating at times, I feel like it helped me understand how everything works together a lot better. Overall, this assignment taught me that engineering isn't just about getting the final design right, but also about being patient, thinking ahead, and being willing to make changes when something doesn't work out the first time.
