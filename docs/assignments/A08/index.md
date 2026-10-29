@@ -150,9 +150,52 @@ Drawings
 Below are drawings to each part and assembly 
 Unfortunately the downloaded files from the McMaster website would not let me make view drawings on solid works so I have attached the part drawings from the McMaster links I provided earlier referencing which parts I used below. The only drawings that were done by me on solid works were the assembly and two shaft drawings. 
 
+<a href="https://raw.githubusercontent.com/alinahsarratt/megr2157-portfolio/main/Gear%20Box%20assembly%20Drawing.SLDDRW" download>
+  Download Gearbox Assembly Drawing (.SLDDRW)
+</a>
+
+<h3>Shaft Drawings</h3>
+
+<a href="https://raw.githubusercontent.com/alinahsarratt/megr2157-portfolio/main/inputshaft%20drawing.SLDDRW" download>
+  Download Input Shaft Drawing (.SLDDRW)
+</a>
+
+<br><br>
+
+<a href="https://raw.githubusercontent.com/alinahsarratt/megr2157-portfolio/main/outputshaft%20updated%20drawing.SLDDRW" download>
+  Download Output Shaft Drawing (.SLDDRW)
+</a>
+
+<h3>Bearing Drawings</h3>
+
+<a href="https://raw.githubusercontent.com/alinahsarratt/megr2157-portfolio/main/6391K111_Oil-Embedded%20841%20Bronze%20Sleeve%20Bearing%20drawing.pdf" download>
+  Download Input Bearing Drawing (.PDF)
+</a>
+
+<br><br>
+
+<a href="https://raw.githubusercontent.com/alinahsarratt/megr2157-portfolio/main/6391K126_Oil-Embedded%20841%20Bronze%20Sleeve%20Bearing%20drawing.pdf" download>
+  Download Output Bearing Drawing (.PDF)
+</a>
+
+<h3>Gear Drawings</h3>
+
+<a href="https://raw.githubusercontent.com/alinahsarratt/megr2157-portfolio/main/gear%202%20drawing.pdf" download>
+  Download Gear 2 Drawing (.PDF)
+</a>
+
+<br><br>
+
+<a href="https://raw.githubusercontent.com/alinahsarratt/megr2157-portfolio/main/McMaster-Carr%20gear%20drawings.pdf" download>
+  Download McMaster-Carr Gear Drawings (.PDF)
+</a>
 
 
+Below is the link to download my assembly part file
 
+<a href="https://raw.githubusercontent.com/alinahsarratt/megr2157-portfolio/main/Gear%20Box%20assembly.SLDASM" download>
+  Download Gearbox Assembly (.SLDASM)
+</a>
 
 
 ## Communicate
