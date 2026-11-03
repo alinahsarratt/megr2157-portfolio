@@ -10,7 +10,8 @@ After choosing my values, I created a free-body diagram to show the tight-side a
 
 Next, I used the normal stress equation and the required safety factor of 3 to calculate the minimum cross-sectional area of the belt. This gave me an area of 0.0664 in² and a minimum belt diameter of approximately 0.291 inches. I also calculated the approximate belt length to be 19.42 inches based on the pulley diameter and center distance. 
 
-After these calculations I moved on to conducting and analyzing a second part of calculations I began to try to find the minimum diameter of the shaft. Below are my calculations in how I did this.
+After these calculations I moved on to conducting and analyzing a second part of calculations I began to try to find the minimum diameter of the shaft. For this part, I used Machinery's Handbook (32nd edition) to find the yield strength of 1060 hardened steel. I decided to use steel that was quenched and tempered at 400°C since the assignment asked for hardened 1060 steel as the material. It had a listed strength of 113,000 psi. After finding this value, I plugged it into my minimum shaft diameter equation along with my previously calculated torque of 13.26 lbf·in and safety factor of 3. From these calculations, I found that my minimum shaft diameter was approximately 0.146 inches.Below are my calculations in how I did this.
+
 
 ## Decide
 
