@@ -61,12 +61,10 @@ After I decided to extrude out my sketch, I knew my bearing lengths were 0.50 in
 <img width="3007" height="1712" alt="image" src="https://github.com/user-attachments/assets/4dda7af2-d41e-47e8-b4de-2ae388684c60" />
 
 Below is the link to download my frame:
-<p>
-  <a href="files/Pulley%20frame.SLDPRT" download="Pulley frame.SLDPRT">
-    Download Pulley Frame Part (.SLDPRT)
-  </a>
-</p>
 
+<a href="https://raw.githubusercontent.com/alinahsarratt/megr2157-portfolio/main/Pulley%20frame.SLDPRT" download>
+    Download Pulley Frame Part (.SLDPRT)
+</a>
 
 
 ## Communicate
