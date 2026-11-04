@@ -15,7 +15,7 @@ After these calculations I moved on to conducting and analyzing a second part of
 
 ## Decide
 My first decesion was to choose a belt based on my minimum diameter I calculated in the above section, since it was 0.291 inches I chose the 5/16 inch diameter 	
-Polyurethane Rubber belt. This had a diameter of 0.313 inches which is slightly greater than my minimum diameter allowing it to be suitable for the design. Below is a link to the website I used to choose this belt. 
+Polyurethane Rubber belt. This had a diameter of 0.3125 inches which is slightly greater than my minimum diameter allowing it to be suitable for the design. Below is a link to the website I used to choose this belt. 
 
 https://www.mcmaster.com/59725K733
 
