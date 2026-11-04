@@ -193,8 +193,8 @@ Unfortunately the downloaded files from the McMaster website would not let me ma
 
 Below is the link to download my assembly part file
 
-<a href="https://raw.githubusercontent.com/alinahsarratt/megr2157-portfolio/main/Pulley%20frame.SLDPRT" download>
-    Download Pulley Frame Part (.SLDPRT)
+<a href="https://raw.githubusercontent.com/alinahsarratt/megr2157-portfolio/main/Gear%20Box%20assembly.SLDASM" download>
+    Download Gearbox Assembly (.SLDASM)
 </a>
 
 ## Communicate
