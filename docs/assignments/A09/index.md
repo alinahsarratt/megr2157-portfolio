@@ -10,7 +10,13 @@ After choosing my values, I created a free-body diagram to show the tight-side a
 
 Next, I used the normal stress equation and the required safety factor of 3 to calculate the minimum cross-sectional area of the belt. This gave me an area of 0.0664 in² and a minimum belt diameter of approximately 0.291 inches. I also calculated the approximate belt length to be 19.42 inches based on the pulley diameter and center distance. After I did these calculations I was able to choose a belt this can be found in the Decide section. 
 
+<img width="920" height="1205" alt="image" src="https://github.com/user-attachments/assets/c3dabd94-e02a-4856-b71b-37ebadc43020" />
+
+
 After these calculations I moved on to conducting and analyzing a second part of calculations I began to try to find the minimum diameter of the shaft. For this part, I used Machinery's Handbook (32nd edition) to find the yield strength of 1060 hardened steel. I decided to use steel that was quenched and tempered at 400°C since the assignment asked for hardened 1060 steel as the material. It had a listed strength of 113,000 psi. After finding this value, I plugged it into my minimum shaft diameter equation along with my previously calculated torque of 13.26 lbf·in and safety factor of 3. From these calculations, I found that my minimum shaft diameter was approximately 0.146 inches.Below are my calculations in how I did this.
+
+<img width="905" height="1180" alt="image" src="https://github.com/user-attachments/assets/997bfd0f-8bde-4890-be6b-d1335a5b750c" />
+
 
 After it was time to analyze the PV rating so I could select a journal bearing from the machinery's handbook. I started by using the forces I had previously calculated, which were 10.42 lbf and 1.58 lbf. Adding these together gave me a total load of 12 lbf. Since I was using two bearings to support the shaft, I divided the load equally between them, giving me a reaction force of 6 lbf per bearing.
 
@@ -19,6 +25,9 @@ Next, I calculated the bearing pressure using the load, shaft diameter, and bear
 After finding the pressure, I moved on to calculating the surface velocity of the shaft. For this calculation, I used the shaft diameter of 0.25 inches and a rotational speed of 2,000 RPM. This gave me a velocity of 130.90 ft/min.
 
 Finally, I multiplied the pressure and velocity together to find the PV rating. My work for this is down below:
+
+<img width="867" height="1145" alt="image" src="https://github.com/user-attachments/assets/d23cbe3e-64f5-42ef-bc73-d70db69a1e7b" />
+
 
 
 
@@ -36,6 +45,10 @@ The second decision I made was based on the Table 4 in Machinery's Handbook page
 
 Next it was time to start designing my frame but since I had my bearing material I needed its outside diameter, since I knew the inner nominal matched the 0.25 inch diamter on the shaft, so I did a calculation. I assumed a thickness of 0.0625 for the wall thickness, this would left be with an outer diamter of 0.375 as you can see in my calculations below. 
 
+<img width="450" height="385" alt="image" src="https://github.com/user-attachments/assets/d3c2aee6-d28a-4f87-a976-42980bf58e68" />
+
+
+
 However I had to make sure that the design could actually support this wall thickness in terms of bearing pressure and how it compares to the load capacity of the material. So I plugged it into the bearing pressure equation and got the answer to that below. It was way below the material's loading capacity meaning the design could sustain those dimensions. Then I moved on to creating my solid model based on these dimensions. 
 
 I first began with this simple sketch I was going to extrude. 
@@ -48,7 +61,10 @@ After I decided to extrude out my sketch, I knew my bearing lengths were 0.50 in
 <img width="3007" height="1712" alt="image" src="https://github.com/user-attachments/assets/4dda7af2-d41e-47e8-b4de-2ae388684c60" />
 
 Below is the link to download my frame:
-
+<a href="https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/Pulley%20frame.SLDPRT"
+   download="Pulley frame.SLDPRT">
+  Download Pulley Frame SolidWorks Part
+</a>
 
 
 
