@@ -298,11 +298,11 @@ I found a concealed screw that uses the same mechanics as the other connections 
     </td>
     <td style="width:50%; align="center"">
       <div style="font-size:18px; text-align: center;">
-        <b>Concealed Set Screw Straight Connection on Fram</b>
-      </div>
-      <img src="set_screw_straight_connection.png" alt="Concealed set screw straight connection on assembly" style="width:100%; height:auto;">
-    </td>
-  </tr>
+          <b>Concealed Set Screw Straight Connection on Fram</b>
+</div>
+<img src="set_screw_straight_connection.png" alt="Concealed set screw straight connection on assembly" style="width:100%; height:auto;">
+</td>
+</tr>
 </table>
 
 The material didn't import again. Looking at McMaster, it uses zinc-plated steel. This is similar to the anodized aluminum but for steel. When I looked up what material would best fit this, I found that 1018 low carbon steel would work just fine. Since I created the material for it earlier, I decided to apply that to this connection.
