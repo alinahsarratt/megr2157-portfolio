@@ -357,3 +357,4 @@ Andrew's part:
 ## Communicate
 For this project I learned about how important it is to get all the calculations figured out before you actually start to move on with the design. I also learned how important it is to put the design through different engineering tests such as the von mises and buckling test because that is really telling if you need to go back and change your design, along with recalculating it. I spend about 9 hours on this project in total. 
 
+
