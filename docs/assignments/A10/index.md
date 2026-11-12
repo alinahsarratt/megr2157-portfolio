@@ -341,11 +341,15 @@ If you are interested in the CAD files, here is a [zip file](tensile_tester.zip)
 
 
 ### FEA Optimization
+Everyone:
+We first ran a FEA test with medium mesh to get the results of the original design before we optimized anything. 
+
+However when we tried to run more tests on solidworks it informed us that 62 elements on the downloaded CAD files have too small of radii for the software to complete the mesh. This created a halt in the optimization process. The above picture is the deflection data gathered from the first run. 
 
 <img width="770" height="852" alt="image" src="https://github.com/user-attachments/assets/83a4b2ab-046b-45e6-8fbf-3d40b996e0af" />
 
 ### [Crosshead Drawing:](crosshead.SLDDRW)
-
+Andrew's part:
 <img width="1917" height="1020" alt="Crosshead_Drawing" src="https://github.com/user-attachments/assets/f26aefee-fa77-4dc1-b47b-459bf43fcdb4" />
 
 
