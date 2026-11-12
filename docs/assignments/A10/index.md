@@ -340,6 +340,14 @@ If you are interested in the CAD files, here is a [zip file](tensile_tester.zip)
 
 
 
+### FEA Optimization
+
+<img width="770" height="852" alt="image" src="https://github.com/user-attachments/assets/83a4b2ab-046b-45e6-8fbf-3d40b996e0af" />
+
+### [Crosshead Drawing:](crosshead.SLDDRW)
+
+<img width="1917" height="1020" alt="Crosshead_Drawing" src="https://github.com/user-attachments/assets/f26aefee-fa77-4dc1-b47b-459bf43fcdb4" />
+
 
 
 
