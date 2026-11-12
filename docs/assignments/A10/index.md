@@ -83,8 +83,7 @@ I then decided to calculate bending stress. I followed the exact same process as
 
 Lastly, I calculate the shear stress. I decided to add the cross-sectional area to show how I calculated the area. This diagram was also from the slides. I followed the same process as above. My calculated shear stress is 6.9MPa. I couldn't find the actual safety factor because I couldn't just use my yield strength like the previous problems. Since this is shear stress, I have to use the shear yield strength. To do this, I just divided the yield strength by sqrt(3). I then used those two values to find my actual factor of safety which turned out to be 23.1.
 
-<p align="center">
-    <img src="shear.jpg" alt="shear stress" height="75%" width="auto">
+<p align="center"> <img src="shear.jpg" alt="shear stress" height="75%" width="auto">
 </p>
 
 The nut and flange passed all of the tests with a pretty good margin, so we are good to use our lead screw, nut, and flange.
