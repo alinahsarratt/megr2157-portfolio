@@ -1,6 +1,6 @@
 # A10 – Lead Screw Translating System
 
-Group: Andrew Yang, Andy Chwalik, Alinah Sarratt
+Group Members: Andrew Yang, Andy Chwalik, Alinah Sarratt
 ## Description
 
 A tensile tester is a mechanical testing device used to measure how materials respond to uniaxial tension. It applies a controlled pulling force to a specimen while recording the resulting elongation, allowing engineers to determine properties such as yield strength, ultimate tensile strength, and elongation at break. This data is essential for understanding a material’s mechanical behavior and suitability for design applications.
