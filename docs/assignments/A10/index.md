@@ -344,6 +344,5 @@ If you are interested in the CAD files, here is a [zip file](tensile_tester.zip)
 
 
 ## Communicate
-Andrew's Part:
-For this project, I was assigned to design the Crosshead of the Tensile Tester. For the Crosshead, I had to use the Stress/Strength Analysis and the Beam Deflection Analysis to calculate the parameters of the Crosshead as well as the material for the Crosshead. With this, I had to calculate the height of the Crosshead using the Stress/Strength equation and the Deflection equation. By using these equations, I learned to make assumptions to get to an estimated calculation that fit the given parameters. To ensure that my calculations were correct, my team and I ran simulations on the Tensile Tester to test the Crosshead, making sure it worked properly. The FEA simulation shows what needs to be changed in the design to fit the parameters. I learned that the first simulation will most likely not work and changes will need to be made. I learned that projects like this will involve trial and error until there is a final solution that fits the constraints.
+For this project I learned about how important it is to get all the calculations figured out before you actually start to move on with the design. I also learned how important it is to put the design through different engineering tests such as the von mises and buckling test because that is really telling if you need to go back and change your design, along with recalculating it. I spend about 9 hours on this project in total. 
 
