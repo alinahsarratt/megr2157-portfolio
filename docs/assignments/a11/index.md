@@ -11,4 +11,7 @@
 ## Decide
 _Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
 
+<img width="2505" height="1705" alt="image" src="https://github.com/user-attachments/assets/0a9f09c6-0359-4860-b633-73be4b66ebf5" />
+
+
 ## Communicate
