@@ -16,6 +16,7 @@ _Reference your concept selection (Pugh matrix) here. How does this design follo
 <img width="3105" height="1870" alt="image" src="https://github.com/user-attachments/assets/6b71a45a-b890-4ebb-8a6f-52209a28d598" />
 <img width="685" height="385" alt="Screenshot 2026-11-16 165328" src="https://github.com/user-attachments/assets/88b26e4c-f09d-45f0-bd56-26d5a40c65d5" />
 <img width="2845" height="1752" alt="image" src="https://github.com/user-attachments/assets/8e91dbbb-a695-48c6-bc62-c416503cd912" />
+<img width="3085" height="1837" alt="image" src="https://github.com/user-attachments/assets/b9ca29c6-51a0-459a-b9f0-ccc52ad56b70" />
 
 
 ## Communicate
