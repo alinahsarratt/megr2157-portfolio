@@ -8,6 +8,19 @@
 <img width="600" height="910" alt="image" src="https://github.com/user-attachments/assets/a0922509-b4e3-4745-af68-38d2ce3b3851" />
 
 
+
+<img width="842" height="570" alt="image" src="https://github.com/user-attachments/assets/6a0b3fba-14c9-430a-9909-4248b70074cc" />
+
+
+<img width="815" height="545" alt="image" src="https://github.com/user-attachments/assets/b2d84f39-77c0-409a-96a6-dca1a8239419" />
+
+
+
+
+
+
+
+
 ## Decide
 _Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
 
