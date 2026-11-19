@@ -34,7 +34,34 @@ For this part of the project, I decided to use A36 steel for my coupler since I 
 Instead of designing my own model in solid works I found a working model on Mc Master. I selected McMaster part 3084K33, a steel clamping rigid shaft coupler. This coupler fits my 3/4-inch motor shaft and allows the opposite bore to be machined to fit my 3/8-inch leadscrew. Since my leadscrew is threaded, I would need to machine a smooth section at the end so the coupler can properly grip it. I chose this coupler because its rated torque exceeds my required design torque of 8.44 N·m. However I adjusted my previous design calculations of 1 inch outer diameter of the coupler because I chose this model instead of designing my own in solid works. Below is my adjusted calculations:
 <img width="815" height="545" alt="image" src="https://github.com/user-attachments/assets/b2d84f39-77c0-409a-96a6-dca1a8239419" />
 
-Below are all the relevant CAD files for the motor parts:
+
+<h3>Motor Mounting Assembly - SolidWorks Files</h3>
+
+<p>
+  Below are the SolidWorks part files used for my
+  motor mounting assembly.
+</p>
+
+<ul>
+  <li>
+    <a href="3084K33_Machinable-Bore%20Clamping%20Shaft%20Coupling.SLDPRT" download>
+      Download Shaft Coupling
+    </a>
+  </li>
+
+  <li>
+    <a href="6470K61_DC%20Gearmotor.SLDPRT" download>
+      Download DC Gearmotor
+    </a>
+  </li>
+
+  <li>
+    <a href="motor%20bracket%20housing.SLDPRT" download>
+      Download Motor Bracket Housing
+    </a>
+  </li>
+</ul>
+
 
 
 ## Communicate
