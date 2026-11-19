@@ -373,10 +373,13 @@ Looking in the Machinery Handbook, I found that the RC3 Clearance Fit of the flo
 <img width="1917" height="1020" alt="FloatingBearingMountDrawing" src="https://github.com/user-attachments/assets/a11147d2-3e2b-4309-80d8-9d76cc3e513c" />
 
 
+### [Tensile Tester Drawing](tensile_tester.SLDDRW):
 
 <p align="center">
     <img src="tensile_tester_drw.png" alt="motor twist" height="75%" width="auto">
 </p>
+
+
 
 
 
